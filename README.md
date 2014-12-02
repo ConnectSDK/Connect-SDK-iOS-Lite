@@ -20,9 +20,11 @@ This project has the following dependencies.
 
 ##Including Connect SDK in your app
 ###Using CocoaPods
-1. Add `pod "ConnectSDKLite"` to your Podspec file
+1. Add `pod "ConnectSDK/Core"` to your `Podfile`
 2. Run `pod install`
 3. Open the workspace file and run your project
+
+You can use `pod "ConnectSDK"` to get the [full version](https://github.com/ConnectSDK/Connect-SDK-iOS).
 
 ###Without CocoaPods
 
