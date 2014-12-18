@@ -37,6 +37,9 @@
 		446DB82E1A25596800D2359E /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB82C1A25596800D2359E /* MediaInfo.m */; };
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
+		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; };
+		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
+		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
 		EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82F3199BDCD300B7302B /* ConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB86D199AEC550057B4B4 /* ConnectSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB79E199AEC550057B4B4 /* ConnectSDK-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -253,6 +256,9 @@
 		446DB82C1A25596800D2359E /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
+		44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
+		44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
+		44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
 		EA41388A18FE51A9002CB005 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectSDKDefaultPlatforms.h; sourceTree = "<group>"; };
 		EA5F82F3199BDCD300B7302B /* ConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectSDK.h; sourceTree = "<group>"; };
@@ -457,6 +463,7 @@
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
 				44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */,
 				44375E8E1A2526F800D2F6DE /* Discovery */,
+				44CEF5911A43598F00D069C8 /* Services */,
 				44375E931A2526F800D2F6DE /* Info.plist */,
 			);
 			path = ConnectSDKTests;
@@ -494,6 +501,22 @@
 				44375E9E1A254CAA00D2F6DE /* OHHTTPStubs.framework */,
 			);
 			path = OHHTTPStubs;
+			sourceTree = "<group>";
+		};
+		44CEF5911A43598F00D069C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44CEF5921A43598F00D069C8 /* Helpers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44CEF5921A43598F00D069C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EA5FB799199AEC2E0057B4B4 /* Connect SDK */ = {
@@ -831,6 +854,8 @@
 			children = (
 				EA5FB841199AEC550057B4B4 /* AirPlayServiceHTTP.h */,
 				EA5FB842199AEC550057B4B4 /* AirPlayServiceHTTP.m */,
+				44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */,
+				44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */,
 				EA5FB843199AEC550057B4B4 /* AirPlayServiceMirrored.h */,
 				EA5FB844199AEC550057B4B4 /* AirPlayServiceMirrored.m */,
 				444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */,
@@ -987,6 +1012,7 @@
 				EA5FB8ED199AEC570057B4B4 /* DeviceService.h in Headers */,
 				EA5FB89D199AEC560057B4B4 /* GCDWebServerFunctions.h in Headers */,
 				EA5FB8D8199AEC560057B4B4 /* TextInputControl.h in Headers */,
+				44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */,
 				EA5FB8C8199AEC560057B4B4 /* ProgramInfo.h in Headers */,
 				EA5FB87B199AEC550057B4B4 /* DiscoveryManagerDelegate.h in Headers */,
 				EA5FB8A7199AEC560057B4B4 /* GCDWebServerFileRequest.h in Headers */,
@@ -1120,6 +1146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */,
+				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
 			);
@@ -1178,6 +1205,7 @@
 				EA5FB8E7199AEC560057B4B4 /* ServiceConfig.m in Sources */,
 				EA5FB8C2199AEC560057B4B4 /* ConnectUtil.m in Sources */,
 				EA5FB87D199AEC550057B4B4 /* DiscoveryProvider.m in Sources */,
+				44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */,
 				EA5FB8FF199AEC570057B4B4 /* RokuService.m in Sources */,
 				EA5FB8AE199AEC560057B4B4 /* GCDWebServerDataResponse.m in Sources */,
 				EA5FB8BC199AEC560057B4B4 /* AppInfo.m in Sources */,
