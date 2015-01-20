@@ -54,6 +54,10 @@
 		446DB82E1A25596800D2359E /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB82C1A25596800D2359E /* MediaInfo.m */; };
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
+		449D5D611A6F1AE10072DD36 /* ssdp_device_description_sonos_no_root_services.xml in Resources */ = {isa = PBXBuildFile; fileRef = 449D5D5D1A6F1AE10072DD36 /* ssdp_device_description_sonos_no_root_services.xml */; };
+		449D5D621A6F1AE10072DD36 /* ssdp_device_description_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 449D5D5E1A6F1AE10072DD36 /* ssdp_device_description_sonos.xml */; };
+		449D5D631A6F1AE10072DD36 /* ssdp_device_description_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 449D5D5F1A6F1AE10072DD36 /* ssdp_device_description_xbox.xml */; };
+		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
 		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; };
 		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
 		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
@@ -290,6 +294,10 @@
 		446DB82C1A25596800D2359E /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
+		449D5D5D1A6F1AE10072DD36 /* ssdp_device_description_sonos_no_root_services.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_sonos_no_root_services.xml; sourceTree = "<group>"; };
+		449D5D5E1A6F1AE10072DD36 /* ssdp_device_description_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_sonos.xml; sourceTree = "<group>"; };
+		449D5D5F1A6F1AE10072DD36 /* ssdp_device_description_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_xbox.xml; sourceTree = "<group>"; };
+		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
 		44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
 		44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
 		44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
@@ -515,6 +523,10 @@
 		44375E8F1A2526F800D2F6DE /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				449D5D5D1A6F1AE10072DD36 /* ssdp_device_description_sonos_no_root_services.xml */,
+				449D5D5E1A6F1AE10072DD36 /* ssdp_device_description_sonos.xml */,
+				449D5D5F1A6F1AE10072DD36 /* ssdp_device_description_xbox.xml */,
+				449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */,
 				44375E901A2526F800D2F6DE /* ssdp_device_description.xml */,
 				44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */,
 				44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */,
@@ -1169,8 +1181,11 @@
 			files = (
 				44375E951A2526F800D2F6DE /* ssdp_device_description.xml in Resources */,
 				445822B41A6DA0A500444188 /* getpositioninfo_response_sonos.xml in Resources */,
+				449D5D631A6F1AE10072DD36 /* ssdp_device_description_xbox.xml in Resources */,
 				445822B91A6DA0A500444188 /* getvolume_response_xbox.xml in Resources */,
 				445822B81A6DA0A500444188 /* getvolume_response_sonos.xml in Resources */,
+				449D5D621A6F1AE10072DD36 /* ssdp_device_description_sonos.xml in Resources */,
+				449D5D611A6F1AE10072DD36 /* ssdp_device_description_sonos_no_root_services.xml in Resources */,
 				445822B61A6DA0A500444188 /* gettransportinfo_response_sonos.xml in Resources */,
 				445822BA1A6DA0A500444188 /* upnperror_response_sonos.xml in Resources */,
 				445822B21A6DA0A500444188 /* getmute_response_sonos.xml in Resources */,
@@ -1221,6 +1236,7 @@
 				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
 				445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */,
 				445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */,
+				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
