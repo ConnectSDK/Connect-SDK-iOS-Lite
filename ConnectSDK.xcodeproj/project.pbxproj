@@ -24,7 +24,6 @@
 /* Begin PBXBuildFile section */
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
-		44375E951A2526F800D2F6DE /* ssdp_device_description.xml in Resources */ = {isa = PBXBuildFile; fileRef = 44375E901A2526F800D2F6DE /* ssdp_device_description.xml */; };
 		44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */; };
 		44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */; };
 		44375E9F1A254CAA00D2F6DE /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375E9C1A254CAA00D2F6DE /* OCMock.framework */; };
@@ -33,10 +32,47 @@
 		44375EA61A254DF400D2F6DE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA51A254DF400D2F6DE /* libicucore.dylib */; };
 		444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */; };
 		444CDE291A2FA2140091B0CF /* DLNAHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */; };
+		445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */; };
+		445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */; };
+		445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822A61A6DA0A500444188 /* DLNAServiceTests.m */; };
+		445822B21A6DA0A500444188 /* getmute_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822A71A6DA0A500444188 /* getmute_response_sonos.xml */; };
+		445822B31A6DA0A500444188 /* getmute_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822A81A6DA0A500444188 /* getmute_response_xbox.xml */; };
+		445822B41A6DA0A500444188 /* getpositioninfo_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822A91A6DA0A500444188 /* getpositioninfo_response_sonos.xml */; };
+		445822B51A6DA0A500444188 /* getpositioninfo_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AA1A6DA0A500444188 /* getpositioninfo_response_xbox.xml */; };
+		445822B61A6DA0A500444188 /* gettransportinfo_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AB1A6DA0A500444188 /* gettransportinfo_response_sonos.xml */; };
+		445822B71A6DA0A500444188 /* gettransportinfo_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AC1A6DA0A500444188 /* gettransportinfo_response_xbox.xml */; };
+		445822B81A6DA0A500444188 /* getvolume_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AD1A6DA0A500444188 /* getvolume_response_sonos.xml */; };
+		445822B91A6DA0A500444188 /* getvolume_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AE1A6DA0A500444188 /* getvolume_response_xbox.xml */; };
+		445822BA1A6DA0A500444188 /* upnperror_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AF1A6DA0A500444188 /* upnperror_response_sonos.xml */; };
+		445822BB1A6DA0A500444188 /* upnperror_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822B01A6DA0A500444188 /* upnperror_response_xbox.xml */; };
+		445822BE1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */; };
+		445822BF1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */; };
+		445822C11A6DA0EF00444188 /* DLNAHTTPServer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822C01A6DA0EF00444188 /* DLNAHTTPServer_Private.h */; };
+		445822C31A6DA11500444188 /* DLNAService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822C21A6DA11500444188 /* DLNAService_Private.h */; };
+		4467B5991A899B50009EC27A /* ssdp_device_description_chromecast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5881A899B50009EC27A /* ssdp_device_description_chromecast.xml */; };
+		4467B59A1A899B50009EC27A /* ssdp_device_description_firetv.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5891A899B50009EC27A /* ssdp_device_description_firetv.xml */; };
+		4467B59B1A899B50009EC27A /* ssdp_device_description_roku2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58A1A899B50009EC27A /* ssdp_device_description_roku2.xml */; };
+		4467B59C1A899B50009EC27A /* ssdp_device_description_samsung_tv.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58B1A899B50009EC27A /* ssdp_device_description_samsung_tv.xml */; };
+		4467B59D1A899B50009EC27A /* ssdp_device_description_webos_minor.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58C1A899B50009EC27A /* ssdp_device_description_webos_minor.xml */; };
+		4467B59E1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58D1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml */; };
+		4467B59F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml */; };
+		4467B5A01A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5901A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml */; };
+		4467B5A11A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5911A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml */; };
+		4467B5A21A899B50009EC27A /* ssdp_device_description_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5921A899B50009EC27A /* ssdp_device_description_sonos.xml */; };
+		4467B5A31A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5931A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml */; };
+		4467B5A41A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5941A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml */; };
+		4467B5A51A899B50009EC27A /* ssdp_device_description_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5951A899B50009EC27A /* ssdp_device_description_xbox.xml */; };
+		4467B5A61A899B50009EC27A /* ssdp_device_description.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5961A899B50009EC27A /* ssdp_device_description.xml */; };
+		4467B5A71A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5981A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml */; };
+		4467B5AC1A899BAA009EC27A /* MediaLaunchObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4467B5AA1A899BAA009EC27A /* MediaLaunchObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4467B5AD1A899BAA009EC27A /* MediaLaunchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4467B5AB1A899BAA009EC27A /* MediaLaunchObject.m */; };
+		4467B5AF1A899BBF009EC27A /* PlayListControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4467B5AE1A899BBF009EC27A /* PlayListControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4467B5B01A899C19009EC27A /* WebOSTVServiceSocketClientTests.m */; };
 		446DB82D1A25596800D2359E /* MediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB82B1A25596800D2359E /* MediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB82E1A25596800D2359E /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB82C1A25596800D2359E /* MediaInfo.m */; };
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
+		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
 		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; };
 		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
 		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
@@ -240,7 +276,6 @@
 		44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectSDKDefaultPlatformsTests.m; sourceTree = "<group>"; };
 		44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConnectSDKTests-Prefix.pch"; sourceTree = "<group>"; };
-		44375E901A2526F800D2F6DE /* ssdp_device_description.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description.xml; sourceTree = "<group>"; };
 		44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProviderTests.m; sourceTree = "<group>"; };
 		44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeroConfDiscoveryProviderTests.m; sourceTree = "<group>"; };
 		44375E931A2526F800D2F6DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -252,10 +287,48 @@
 		44375EA51A254DF400D2F6DE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAHTTPServer.h; sourceTree = "<group>"; };
 		444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAHTTPServer.m; sourceTree = "<group>"; };
+		445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyPredicateSearchTests.m"; sourceTree = "<group>"; };
+		445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAHTTPServerTests.m; sourceTree = "<group>"; };
+		445822A61A6DA0A500444188 /* DLNAServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAServiceTests.m; sourceTree = "<group>"; };
+		445822A71A6DA0A500444188 /* getmute_response_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getmute_response_sonos.xml; sourceTree = "<group>"; };
+		445822A81A6DA0A500444188 /* getmute_response_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getmute_response_xbox.xml; sourceTree = "<group>"; };
+		445822A91A6DA0A500444188 /* getpositioninfo_response_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getpositioninfo_response_sonos.xml; sourceTree = "<group>"; };
+		445822AA1A6DA0A500444188 /* getpositioninfo_response_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getpositioninfo_response_xbox.xml; sourceTree = "<group>"; };
+		445822AB1A6DA0A500444188 /* gettransportinfo_response_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gettransportinfo_response_sonos.xml; sourceTree = "<group>"; };
+		445822AC1A6DA0A500444188 /* gettransportinfo_response_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gettransportinfo_response_xbox.xml; sourceTree = "<group>"; };
+		445822AD1A6DA0A500444188 /* getvolume_response_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getvolume_response_sonos.xml; sourceTree = "<group>"; };
+		445822AE1A6DA0A500444188 /* getvolume_response_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getvolume_response_xbox.xml; sourceTree = "<group>"; };
+		445822AF1A6DA0A500444188 /* upnperror_response_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = upnperror_response_sonos.xml; sourceTree = "<group>"; };
+		445822B01A6DA0A500444188 /* upnperror_response_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = upnperror_response_xbox.xml; sourceTree = "<group>"; };
+		445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KeyPredicateSearch.h"; sourceTree = "<group>"; };
+		445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyPredicateSearch.m"; sourceTree = "<group>"; };
+		445822C01A6DA0EF00444188 /* DLNAHTTPServer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAHTTPServer_Private.h; sourceTree = "<group>"; };
+		445822C21A6DA11500444188 /* DLNAService_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAService_Private.h; sourceTree = "<group>"; };
+		4467B5881A899B50009EC27A /* ssdp_device_description_chromecast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_chromecast.xml; sourceTree = "<group>"; };
+		4467B5891A899B50009EC27A /* ssdp_device_description_firetv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_firetv.xml; sourceTree = "<group>"; };
+		4467B58A1A899B50009EC27A /* ssdp_device_description_roku2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_roku2.xml; sourceTree = "<group>"; };
+		4467B58B1A899B50009EC27A /* ssdp_device_description_samsung_tv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_samsung_tv.xml; sourceTree = "<group>"; };
+		4467B58C1A899B50009EC27A /* ssdp_device_description_webos_minor.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_webos_minor.xml; sourceTree = "<group>"; };
+		4467B58D1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_xbox_dial.xml; sourceTree = "<group>"; };
+		4467B58F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_dlna_no_required_services.xml; sourceTree = "<group>"; };
+		4467B5901A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_dlna_root_no_required_services.xml; sourceTree = "<group>"; };
+		4467B5911A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_samsung_tv_dlna.xml; sourceTree = "<group>"; };
+		4467B5921A899B50009EC27A /* ssdp_device_description_sonos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_sonos.xml; sourceTree = "<group>"; };
+		4467B5931A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_sonos_no_root_services.xml; sourceTree = "<group>"; };
+		4467B5941A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_webos_minor_dlna.xml; sourceTree = "<group>"; };
+		4467B5951A899B50009EC27A /* ssdp_device_description_xbox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_xbox.xml; sourceTree = "<group>"; };
+		4467B5961A899B50009EC27A /* ssdp_device_description.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description.xml; sourceTree = "<group>"; };
+		4467B5981A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_webos_minor_webos.xml; sourceTree = "<group>"; };
+		4467B5A81A899B7A009EC27A /* WebOSTVServiceSocketClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOSTVServiceSocketClient_Private.h; sourceTree = "<group>"; };
+		4467B5AA1A899BAA009EC27A /* MediaLaunchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaLaunchObject.h; sourceTree = "<group>"; };
+		4467B5AB1A899BAA009EC27A /* MediaLaunchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaLaunchObject.m; sourceTree = "<group>"; };
+		4467B5AE1A899BBF009EC27A /* PlayListControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayListControl.h; sourceTree = "<group>"; };
+		4467B5B01A899C19009EC27A /* WebOSTVServiceSocketClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSTVServiceSocketClientTests.m; sourceTree = "<group>"; };
 		446DB82B1A25596800D2359E /* MediaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaInfo.h; sourceTree = "<group>"; };
 		446DB82C1A25596800D2359E /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
+		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
 		44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
 		44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
 		44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
@@ -463,6 +536,7 @@
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
 				44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */,
 				44375E8E1A2526F800D2F6DE /* Discovery */,
+				445822A01A6DA06200444188 /* Helpers */,
 				44CEF5911A43598F00D069C8 /* Services */,
 				44375E931A2526F800D2F6DE /* Info.plist */,
 			);
@@ -480,7 +554,8 @@
 		44375E8F1A2526F800D2F6DE /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				44375E901A2526F800D2F6DE /* ssdp_device_description.xml */,
+				4467B5861A899B50009EC27A /* sample_data */,
+				449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */,
 				44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */,
 				44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */,
 			);
@@ -503,10 +578,75 @@
 			path = OHHTTPStubs;
 			sourceTree = "<group>";
 		};
+		445822A01A6DA06200444188 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4467B5861A899B50009EC27A /* sample_data */ = {
+			isa = PBXGroup;
+			children = (
+				4467B5871A899B50009EC27A /* dial */,
+				4467B58E1A899B50009EC27A /* dlna */,
+				4467B5961A899B50009EC27A /* ssdp_device_description.xml */,
+				4467B5971A899B50009EC27A /* webos */,
+			);
+			path = sample_data;
+			sourceTree = "<group>";
+		};
+		4467B5871A899B50009EC27A /* dial */ = {
+			isa = PBXGroup;
+			children = (
+				4467B5881A899B50009EC27A /* ssdp_device_description_chromecast.xml */,
+				4467B5891A899B50009EC27A /* ssdp_device_description_firetv.xml */,
+				4467B58A1A899B50009EC27A /* ssdp_device_description_roku2.xml */,
+				4467B58B1A899B50009EC27A /* ssdp_device_description_samsung_tv.xml */,
+				4467B58C1A899B50009EC27A /* ssdp_device_description_webos_minor.xml */,
+				4467B58D1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml */,
+			);
+			path = dial;
+			sourceTree = "<group>";
+		};
+		4467B58E1A899B50009EC27A /* dlna */ = {
+			isa = PBXGroup;
+			children = (
+				4467B58F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml */,
+				4467B5901A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml */,
+				4467B5911A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml */,
+				4467B5921A899B50009EC27A /* ssdp_device_description_sonos.xml */,
+				4467B5931A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml */,
+				4467B5941A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml */,
+				4467B5951A899B50009EC27A /* ssdp_device_description_xbox.xml */,
+			);
+			path = dlna;
+			sourceTree = "<group>";
+		};
+		4467B5971A899B50009EC27A /* webos */ = {
+			isa = PBXGroup;
+			children = (
+				4467B5981A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml */,
+			);
+			path = webos;
+			sourceTree = "<group>";
+		};
 		44CEF5911A43598F00D069C8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				44CEF5921A43598F00D069C8 /* Helpers */,
+				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
+				445822A71A6DA0A500444188 /* getmute_response_sonos.xml */,
+				445822A81A6DA0A500444188 /* getmute_response_xbox.xml */,
+				445822A91A6DA0A500444188 /* getpositioninfo_response_sonos.xml */,
+				445822AA1A6DA0A500444188 /* getpositioninfo_response_xbox.xml */,
+				445822AB1A6DA0A500444188 /* gettransportinfo_response_sonos.xml */,
+				445822AC1A6DA0A500444188 /* gettransportinfo_response_xbox.xml */,
+				445822AD1A6DA0A500444188 /* getvolume_response_sonos.xml */,
+				445822AE1A6DA0A500444188 /* getvolume_response_xbox.xml */,
+				445822AF1A6DA0A500444188 /* upnperror_response_sonos.xml */,
+				445822B01A6DA0A500444188 /* upnperror_response_xbox.xml */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -514,6 +654,8 @@
 		44CEF5921A43598F00D069C8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4467B5B01A899C19009EC27A /* WebOSTVServiceSocketClientTests.m */,
+				445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */,
 				44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */,
 			);
 			path = Helpers;
@@ -745,6 +887,8 @@
 		EA5FB802199AEC550057B4B4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */,
+				445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */,
 				EA5FB803199AEC550057B4B4 /* AppInfo.h */,
 				EA5FB804199AEC550057B4B4 /* AppInfo.m */,
 				EA5FB805199AEC550057B4B4 /* ChannelInfo.h */,
@@ -762,6 +906,8 @@
 				EA5FB80F199AEC550057B4B4 /* JSONObjectCoding.h */,
 				446DB82B1A25596800D2359E /* MediaInfo.h */,
 				446DB82C1A25596800D2359E /* MediaInfo.m */,
+				4467B5AA1A899BAA009EC27A /* MediaLaunchObject.h */,
+				4467B5AB1A899BAA009EC27A /* MediaLaunchObject.m */,
 				EA5FB810199AEC550057B4B4 /* ProgramInfo.h */,
 				EA5FB811199AEC550057B4B4 /* ProgramInfo.m */,
 				EA5FB812199AEC550057B4B4 /* SSDPSocketListener.h */,
@@ -786,6 +932,7 @@
 				EA5FB83C199AEC550057B4B4 /* DIALService.h */,
 				EA5FB83D199AEC550057B4B4 /* DIALService.m */,
 				EA5FB83E199AEC550057B4B4 /* DLNAService.h */,
+				445822C21A6DA11500444188 /* DLNAService_Private.h */,
 				EA5FB83F199AEC550057B4B4 /* DLNAService.m */,
 				EA5FB840199AEC550057B4B4 /* Helpers */,
 				EA5FB849199AEC550057B4B4 /* NetcastTVService.h */,
@@ -809,6 +956,7 @@
 				EA5FB81E199AEC550057B4B4 /* MediaControl.h */,
 				EA5FB81F199AEC550057B4B4 /* MediaPlayer.h */,
 				EA5FB820199AEC550057B4B4 /* MouseControl.h */,
+				4467B5AE1A899BBF009EC27A /* PlayListControl.h */,
 				EA5FB821199AEC550057B4B4 /* PowerControl.h */,
 				EA5FB822199AEC550057B4B4 /* TextInputControl.h */,
 				EA5FB823199AEC550057B4B4 /* ToastControl.h */,
@@ -859,10 +1007,12 @@
 				EA5FB843199AEC550057B4B4 /* AirPlayServiceMirrored.h */,
 				EA5FB844199AEC550057B4B4 /* AirPlayServiceMirrored.m */,
 				444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */,
+				445822C01A6DA0EF00444188 /* DLNAHTTPServer_Private.h */,
 				444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */,
 				EA5FB845199AEC550057B4B4 /* WebOSTVServiceMouse.h */,
 				EA5FB846199AEC550057B4B4 /* WebOSTVServiceMouse.m */,
 				EA5FB847199AEC550057B4B4 /* WebOSTVServiceSocketClient.h */,
+				4467B5A81A899B7A009EC27A /* WebOSTVServiceSocketClient_Private.h */,
 				EA5FB848199AEC550057B4B4 /* WebOSTVServiceSocketClient.m */,
 			);
 			path = Helpers;
@@ -943,8 +1093,10 @@
 				EA5FB88E199AEC560057B4B4 /* CTASIHTTPRequest.h in Headers */,
 				EA5FB8E6199AEC560057B4B4 /* ServiceConfig.h in Headers */,
 				EA5FB89B199AEC560057B4B4 /* GCDWebServerConnection.h in Headers */,
+				4467B5AF1A899BBF009EC27A /* PlayListControl.h in Headers */,
 				EA5FB8D6199AEC560057B4B4 /* MouseControl.h in Headers */,
 				EA5FB909199AEC570057B4B4 /* WebOSTVService.h in Headers */,
+				445822C31A6DA11500444188 /* DLNAService_Private.h in Headers */,
 				EA5FB8CE199AEC560057B4B4 /* AirPlayService.h in Headers */,
 				EA5FB89F199AEC560057B4B4 /* GCDWebServerHTTPStatusCodes.h in Headers */,
 				EA5FB8E4199AEC560057B4B4 /* NetcastTVServiceConfig.h in Headers */,
@@ -954,6 +1106,7 @@
 				EA5FB8DF199AEC560057B4B4 /* ServiceCommand.h in Headers */,
 				EA5FB8E1199AEC560057B4B4 /* ServiceCommandDelegate.h in Headers */,
 				EA5FB8D1199AEC560057B4B4 /* ExternalInputControl.h in Headers */,
+				445822BE1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h in Headers */,
 				EA5FB8AB199AEC560057B4B4 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
 				444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */,
 				EA5FB8CC199AEC560057B4B4 /* TextInputStatusInfo.h in Headers */,
@@ -997,6 +1150,8 @@
 				EA5FB8D4199AEC560057B4B4 /* MediaControl.h in Headers */,
 				EA5FB8EB199AEC570057B4B4 /* WebOSTVServiceConfig.h in Headers */,
 				EA5FB8D0199AEC560057B4B4 /* Capability.h in Headers */,
+				4467B5AC1A899BAA009EC27A /* MediaLaunchObject.h in Headers */,
+				445822C11A6DA0EF00444188 /* DLNAHTTPServer_Private.h in Headers */,
 				EA5FB8EF199AEC570057B4B4 /* DeviceServiceDelegate.h in Headers */,
 				EA5FB87C199AEC550057B4B4 /* DiscoveryProvider.h in Headers */,
 				EA5FB8C7199AEC560057B4B4 /* JSONObjectCoding.h in Headers */,
@@ -1105,7 +1260,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44375E951A2526F800D2F6DE /* ssdp_device_description.xml in Resources */,
+				4467B59A1A899B50009EC27A /* ssdp_device_description_firetv.xml in Resources */,
+				445822B41A6DA0A500444188 /* getpositioninfo_response_sonos.xml in Resources */,
+				445822B91A6DA0A500444188 /* getvolume_response_xbox.xml in Resources */,
+				4467B5A51A899B50009EC27A /* ssdp_device_description_xbox.xml in Resources */,
+				4467B5A71A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml in Resources */,
+				4467B5A21A899B50009EC27A /* ssdp_device_description_sonos.xml in Resources */,
+				4467B5A41A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml in Resources */,
+				4467B5A61A899B50009EC27A /* ssdp_device_description.xml in Resources */,
+				445822B81A6DA0A500444188 /* getvolume_response_sonos.xml in Resources */,
+				445822B61A6DA0A500444188 /* gettransportinfo_response_sonos.xml in Resources */,
+				4467B5A11A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml in Resources */,
+				4467B5A01A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml in Resources */,
+				4467B5991A899B50009EC27A /* ssdp_device_description_chromecast.xml in Resources */,
+				445822BA1A6DA0A500444188 /* upnperror_response_sonos.xml in Resources */,
+				4467B5A31A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml in Resources */,
+				445822B21A6DA0A500444188 /* getmute_response_sonos.xml in Resources */,
+				445822BB1A6DA0A500444188 /* upnperror_response_xbox.xml in Resources */,
+				4467B59E1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml in Resources */,
+				4467B59F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml in Resources */,
+				4467B59C1A899B50009EC27A /* ssdp_device_description_samsung_tv.xml in Resources */,
+				445822B51A6DA0A500444188 /* getpositioninfo_response_xbox.xml in Resources */,
+				4467B59D1A899B50009EC27A /* ssdp_device_description_webos_minor.xml in Resources */,
+				4467B59B1A899B50009EC27A /* ssdp_device_description_roku2.xml in Resources */,
+				445822B31A6DA0A500444188 /* getmute_response_xbox.xml in Resources */,
+				445822B71A6DA0A500444188 /* gettransportinfo_response_xbox.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,7 +1326,12 @@
 			files = (
 				44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */,
 				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
+				445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */,
+				445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */,
+				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
+				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
+				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1156,6 +1340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4467B5AD1A899BAA009EC27A /* MediaLaunchObject.m in Sources */,
 				EA5FB884199AEC560057B4B4 /* CTASIAuthenticationDialog.m in Sources */,
 				EA5FB895199AEC560057B4B4 /* CTASINetworkQueue.m in Sources */,
 				EA5FB8B0199AEC560057B4B4 /* GCDWebServerErrorResponse.m in Sources */,
@@ -1183,6 +1368,7 @@
 				EA5FB87A199AEC550057B4B4 /* DiscoveryManager.m in Sources */,
 				EA5FB903199AEC570057B4B4 /* LaunchSession.m in Sources */,
 				EA5FB8A8199AEC560057B4B4 /* GCDWebServerFileRequest.m in Sources */,
+				445822BF1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m in Sources */,
 				EA5FB880199AEC550057B4B4 /* SSDPDiscoveryProvider.m in Sources */,
 				EA5FB8CD199AEC560057B4B4 /* TextInputStatusInfo.m in Sources */,
 				EA5FB8EE199AEC570057B4B4 /* DeviceService.m in Sources */,
