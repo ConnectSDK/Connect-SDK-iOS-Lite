@@ -73,9 +73,17 @@
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
 		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
+		44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */; };
+		44C2CC991AB7971D00B20E46 /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC971AB7971D00B20E46 /* XMLWriter.h */; };
+		44C2CC9A1AB7971D00B20E46 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CC981AB7971D00B20E46 /* XMLWriter.m */; };
+		44C2CC9D1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC9B1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h */; };
+		44C2CC9E1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CC9C1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m */; };
+		44C2CCA51AB7A68100B20E46 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CCA31AB7A68100B20E46 /* NSString+Common.h */; };
+		44C2CCA61AB7A68100B20E46 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CCA41AB7A68100B20E46 /* NSString+Common.m */; };
 		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; };
 		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
 		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
+		44D8F7D41AB22A7C00559FE3 /* ssdp_device_description_lg_speaker.xml in Resources */ = {isa = PBXBuildFile; fileRef = 44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */; };
 		EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82F3199BDCD300B7302B /* ConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB86D199AEC550057B4B4 /* ConnectSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB79E199AEC550057B4B4 /* ConnectSDK-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -329,9 +337,18 @@
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
 		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
+		44BCC3EF1AB37613001BCDAA /* NSInvocation+ObjectGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+ObjectGetter.h"; sourceTree = "<group>"; };
+		44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+ObjectGetter.m"; sourceTree = "<group>"; };
+		44C2CC971AB7971D00B20E46 /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
+		44C2CC981AB7971D00B20E46 /* XMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLWriter.m; sourceTree = "<group>"; };
+		44C2CC9B1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XMLWriter+ConvenienceMethods.h"; sourceTree = "<group>"; };
+		44C2CC9C1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMLWriter+ConvenienceMethods.m"; sourceTree = "<group>"; };
+		44C2CCA31AB7A68100B20E46 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		44C2CCA41AB7A68100B20E46 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
 		44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
 		44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
+		44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_lg_speaker.xml; sourceTree = "<group>"; };
 		EA41388A18FE51A9002CB005 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectSDKDefaultPlatforms.h; sourceTree = "<group>"; };
 		EA5F82F3199BDCD300B7302B /* ConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectSDK.h; sourceTree = "<group>"; };
@@ -533,6 +550,8 @@
 		44375E8B1A2526F800D2F6DE /* ConnectSDKTests */ = {
 			isa = PBXGroup;
 			children = (
+				44BCC3EF1AB37613001BCDAA /* NSInvocation+ObjectGetter.h */,
+				44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */,
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
 				44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */,
 				44375E8E1A2526F800D2F6DE /* Discovery */,
@@ -615,6 +634,7 @@
 			children = (
 				4467B58F1A899B50009EC27A /* ssdp_device_description_dlna_no_required_services.xml */,
 				4467B5901A899B50009EC27A /* ssdp_device_description_dlna_root_no_required_services.xml */,
+				44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */,
 				4467B5911A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml */,
 				4467B5921A899B50009EC27A /* ssdp_device_description_sonos.xml */,
 				4467B5931A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml */,
@@ -630,6 +650,15 @@
 				4467B5981A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml */,
 			);
 			path = webos;
+			sourceTree = "<group>";
+		};
+		44C2CC961AB7971D00B20E46 /* xswi */ = {
+			isa = PBXGroup;
+			children = (
+				44C2CC971AB7971D00B20E46 /* XMLWriter.h */,
+				44C2CC981AB7971D00B20E46 /* XMLWriter.m */,
+			);
+			path = xswi;
 			sourceTree = "<group>";
 		};
 		44CEF5911A43598F00D069C8 /* Services */ = {
@@ -741,6 +770,7 @@
 				44375E9D1A254CAA00D2F6DE /* OHHTTPStubs */,
 				EA5FB7FA199AEC550057B4B4 /* SocketRocket */,
 				EA5FB7FE199AEC550057B4B4 /* XMLReader */,
+				44C2CC961AB7971D00B20E46 /* xswi */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -887,8 +917,6 @@
 		EA5FB802199AEC550057B4B4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */,
-				445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */,
 				EA5FB803199AEC550057B4B4 /* AppInfo.h */,
 				EA5FB804199AEC550057B4B4 /* AppInfo.m */,
 				EA5FB805199AEC550057B4B4 /* ChannelInfo.h */,
@@ -908,6 +936,10 @@
 				446DB82C1A25596800D2359E /* MediaInfo.m */,
 				4467B5AA1A899BAA009EC27A /* MediaLaunchObject.h */,
 				4467B5AB1A899BAA009EC27A /* MediaLaunchObject.m */,
+				445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */,
+				445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */,
+				44C2CCA31AB7A68100B20E46 /* NSString+Common.h */,
+				44C2CCA41AB7A68100B20E46 /* NSString+Common.m */,
 				EA5FB810199AEC550057B4B4 /* ProgramInfo.h */,
 				EA5FB811199AEC550057B4B4 /* ProgramInfo.m */,
 				EA5FB812199AEC550057B4B4 /* SSDPSocketListener.h */,
@@ -1014,6 +1046,8 @@
 				EA5FB847199AEC550057B4B4 /* WebOSTVServiceSocketClient.h */,
 				4467B5A81A899B7A009EC27A /* WebOSTVServiceSocketClient_Private.h */,
 				EA5FB848199AEC550057B4B4 /* WebOSTVServiceSocketClient.m */,
+				44C2CC9B1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h */,
+				44C2CC9C1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1083,6 +1117,7 @@
 				EA5FB87E199AEC550057B4B4 /* DiscoveryProviderDelegate.h in Headers */,
 				EA5FB8DB199AEC560057B4B4 /* VolumeControl.h in Headers */,
 				EA5FB872199AEC550057B4B4 /* DefaultConnectableDeviceStore.h in Headers */,
+				44C2CC991AB7971D00B20E46 /* XMLWriter.h in Headers */,
 				EA5FB8D5199AEC560057B4B4 /* MediaPlayer.h in Headers */,
 				EA5FB907199AEC570057B4B4 /* WebOSWebAppSession.h in Headers */,
 				EA5FB892199AEC560057B4B4 /* CTASIInputStream.h in Headers */,
@@ -1104,6 +1139,7 @@
 				EA5FB8DD199AEC560057B4B4 /* ServiceAsyncCommand.h in Headers */,
 				EA5FB8CA199AEC560057B4B4 /* SSDPSocketListener.h in Headers */,
 				EA5FB8DF199AEC560057B4B4 /* ServiceCommand.h in Headers */,
+				44C2CCA51AB7A68100B20E46 /* NSString+Common.h in Headers */,
 				EA5FB8E1199AEC560057B4B4 /* ServiceCommandDelegate.h in Headers */,
 				EA5FB8D1199AEC560057B4B4 /* ExternalInputControl.h in Headers */,
 				445822BE1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h in Headers */,
@@ -1141,6 +1177,7 @@
 				EA5FB894199AEC560057B4B4 /* CTASINetworkQueue.h in Headers */,
 				EA5FB881199AEC550057B4B4 /* ZeroConfDiscoveryProvider.h in Headers */,
 				EA5FB877199AEC550057B4B4 /* CapabilityFilter.h in Headers */,
+				44C2CC9D1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h in Headers */,
 				EA5FB876199AEC550057B4B4 /* DevicePickerDelegate.h in Headers */,
 				EA5FB879199AEC550057B4B4 /* DiscoveryManager.h in Headers */,
 				EA5FB888199AEC560057B4B4 /* CTASIDataDecompressor.h in Headers */,
@@ -1275,6 +1312,7 @@
 				4467B5991A899B50009EC27A /* ssdp_device_description_chromecast.xml in Resources */,
 				445822BA1A6DA0A500444188 /* upnperror_response_sonos.xml in Resources */,
 				4467B5A31A899B50009EC27A /* ssdp_device_description_sonos_no_root_services.xml in Resources */,
+				44D8F7D41AB22A7C00559FE3 /* ssdp_device_description_lg_speaker.xml in Resources */,
 				445822B21A6DA0A500444188 /* getmute_response_sonos.xml in Resources */,
 				445822BB1A6DA0A500444188 /* upnperror_response_xbox.xml in Resources */,
 				4467B59E1A899B50009EC27A /* ssdp_device_description_xbox_dial.xml in Resources */,
@@ -1326,6 +1364,7 @@
 			files = (
 				44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */,
 				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
+				44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */,
 				445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */,
 				445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */,
 				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
@@ -1343,6 +1382,7 @@
 				4467B5AD1A899BAA009EC27A /* MediaLaunchObject.m in Sources */,
 				EA5FB884199AEC560057B4B4 /* CTASIAuthenticationDialog.m in Sources */,
 				EA5FB895199AEC560057B4B4 /* CTASINetworkQueue.m in Sources */,
+				44C2CC9A1AB7971D00B20E46 /* XMLWriter.m in Sources */,
 				EA5FB8B0199AEC560057B4B4 /* GCDWebServerErrorResponse.m in Sources */,
 				EA5FB8F1199AEC570057B4B4 /* DIALService.m in Sources */,
 				EA5FB887199AEC560057B4B4 /* CTASIDataCompressor.m in Sources */,
@@ -1360,6 +1400,7 @@
 				EA5FB8B8199AEC560057B4B4 /* LGSRWebSocket.m in Sources */,
 				EA5FB8EC199AEC570057B4B4 /* WebOSTVServiceConfig.m in Sources */,
 				EA5FB8B6199AEC560057B4B4 /* CTGuid.m in Sources */,
+				44C2CCA61AB7A68100B20E46 /* NSString+Common.m in Sources */,
 				EA5FB8FB199AEC570057B4B4 /* WebOSTVServiceSocketClient.m in Sources */,
 				EA5FB8C9199AEC560057B4B4 /* ProgramInfo.m in Sources */,
 				EA5FB8C6199AEC560057B4B4 /* ExternalInputInfo.m in Sources */,
@@ -1390,6 +1431,7 @@
 				EA5FB86F199AEC550057B4B4 /* ConnectableDevice.m in Sources */,
 				EA5FB8E7199AEC560057B4B4 /* ServiceConfig.m in Sources */,
 				EA5FB8C2199AEC560057B4B4 /* ConnectUtil.m in Sources */,
+				44C2CC9E1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */,
 				EA5FB87D199AEC550057B4B4 /* DiscoveryProvider.m in Sources */,
 				44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */,
 				EA5FB8FF199AEC570057B4B4 /* RokuService.m in Sources */,
@@ -1444,6 +1486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1475,6 +1518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
