@@ -73,6 +73,7 @@
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
 		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
+		44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */; };
 		44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */; };
 		44C2CC991AB7971D00B20E46 /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC971AB7971D00B20E46 /* XMLWriter.h */; };
 		44C2CC9A1AB7971D00B20E46 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CC981AB7971D00B20E46 /* XMLWriter.m */; };
@@ -337,6 +338,8 @@
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
 		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
+		44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetcastTVServiceTests.m; sourceTree = "<group>"; };
+		44A551921AC1F06A001AF783 /* NetcastTVService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetcastTVService_Private.h; sourceTree = "<group>"; };
 		44BCC3EF1AB37613001BCDAA /* NSInvocation+ObjectGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+ObjectGetter.h"; sourceTree = "<group>"; };
 		44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+ObjectGetter.m"; sourceTree = "<group>"; };
 		44C2CC971AB7971D00B20E46 /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
@@ -666,6 +669,7 @@
 			children = (
 				44CEF5921A43598F00D069C8 /* Helpers */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
+				44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */,
 				445822A71A6DA0A500444188 /* getmute_response_sonos.xml */,
 				445822A81A6DA0A500444188 /* getmute_response_xbox.xml */,
 				445822A91A6DA0A500444188 /* getpositioninfo_response_sonos.xml */,
@@ -968,6 +972,7 @@
 				EA5FB83F199AEC550057B4B4 /* DLNAService.m */,
 				EA5FB840199AEC550057B4B4 /* Helpers */,
 				EA5FB849199AEC550057B4B4 /* NetcastTVService.h */,
+				44A551921AC1F06A001AF783 /* NetcastTVService_Private.h */,
 				EA5FB84A199AEC550057B4B4 /* NetcastTVService.m */,
 				EA5FB84B199AEC550057B4B4 /* RokuService.h */,
 				EA5FB84C199AEC550057B4B4 /* RokuService.m */,
@@ -1371,6 +1376,7 @@
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
+				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
