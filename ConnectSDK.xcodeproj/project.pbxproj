@@ -73,6 +73,12 @@
 		446DB82E1A25596800D2359E /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB82C1A25596800D2359E /* MediaInfo.m */; };
 		446DB8321A2559CC00D2359E /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 446DB8301A2559CC00D2359E /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		446DB8331A2559CC00D2359E /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DB8311A2559CC00D2359E /* ImageInfo.m */; };
+		44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44758BD61AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m */; };
+		44758BE01AE71E2700EC43A6 /* airplay_playbackinfo_ff.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDB1AE71E2700EC43A6 /* airplay_playbackinfo_ff.json */; };
+		44758BE11AE71E2700EC43A6 /* airplay_playbackinfo_finished.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDC1AE71E2700EC43A6 /* airplay_playbackinfo_finished.json */; };
+		44758BE21AE71E2700EC43A6 /* airplay_playbackinfo_paused.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDD1AE71E2700EC43A6 /* airplay_playbackinfo_paused.json */; };
+		44758BE31AE71E2700EC43A6 /* airplay_playbackinfo_playing.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDE1AE71E2700EC43A6 /* airplay_playbackinfo_playing.json */; };
+		44758BE41AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDF1AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json */; };
 		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
 		44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */; };
 		44A5519C1AC34D56001AF783 /* WebOSTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5519B1AC34D56001AF783 /* WebOSTVServiceTests.m */; };
@@ -340,6 +346,13 @@
 		446DB82C1A25596800D2359E /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		446DB8301A2559CC00D2359E /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
 		446DB8311A2559CC00D2359E /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
+		44758BD61AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPTests.m; sourceTree = "<group>"; };
+		44758BD81AE71DE100EC43A6 /* AirPlayServiceHTTP_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTP_Private.h; sourceTree = "<group>"; };
+		44758BDB1AE71E2700EC43A6 /* airplay_playbackinfo_ff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_ff.json; sourceTree = "<group>"; };
+		44758BDC1AE71E2700EC43A6 /* airplay_playbackinfo_finished.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_finished.json; sourceTree = "<group>"; };
+		44758BDD1AE71E2700EC43A6 /* airplay_playbackinfo_paused.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_paused.json; sourceTree = "<group>"; };
+		44758BDE1AE71E2700EC43A6 /* airplay_playbackinfo_playing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_playing.json; sourceTree = "<group>"; };
+		44758BDF1AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_rewind.json; sourceTree = "<group>"; };
 		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
 		44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetcastTVServiceTests.m; sourceTree = "<group>"; };
 		44A551921AC1F06A001AF783 /* NetcastTVService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetcastTVService_Private.h; sourceTree = "<group>"; };
@@ -659,6 +672,18 @@
 			path = webos;
 			sourceTree = "<group>";
 		};
+		44758BDA1AE71E2700EC43A6 /* sample_data */ = {
+			isa = PBXGroup;
+			children = (
+				44758BDB1AE71E2700EC43A6 /* airplay_playbackinfo_ff.json */,
+				44758BDC1AE71E2700EC43A6 /* airplay_playbackinfo_finished.json */,
+				44758BDD1AE71E2700EC43A6 /* airplay_playbackinfo_paused.json */,
+				44758BDE1AE71E2700EC43A6 /* airplay_playbackinfo_playing.json */,
+				44758BDF1AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json */,
+			);
+			path = sample_data;
+			sourceTree = "<group>";
+		};
 		44C2CC961AB7971D00B20E46 /* xswi */ = {
 			isa = PBXGroup;
 			children = (
@@ -692,9 +717,11 @@
 		44CEF5921A43598F00D069C8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				4467B5B01A899C19009EC27A /* WebOSTVServiceSocketClientTests.m */,
-				445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */,
+				44758BDA1AE71E2700EC43A6 /* sample_data */,
 				44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */,
+				44758BD61AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m */,
+				445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */,
+				4467B5B01A899C19009EC27A /* WebOSTVServiceSocketClientTests.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1044,6 +1071,7 @@
 			isa = PBXGroup;
 			children = (
 				EA5FB841199AEC550057B4B4 /* AirPlayServiceHTTP.h */,
+				44758BD81AE71DE100EC43A6 /* AirPlayServiceHTTP_Private.h */,
 				EA5FB842199AEC550057B4B4 /* AirPlayServiceHTTP.m */,
 				44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */,
 				44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */,
@@ -1315,8 +1343,11 @@
 				4467B5A51A899B50009EC27A /* ssdp_device_description_xbox.xml in Resources */,
 				4467B5A71A899B50009EC27A /* ssdp_device_description_webos_minor_webos.xml in Resources */,
 				4467B5A21A899B50009EC27A /* ssdp_device_description_sonos.xml in Resources */,
+				44758BE21AE71E2700EC43A6 /* airplay_playbackinfo_paused.json in Resources */,
+				44758BE41AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json in Resources */,
 				4467B5A41A899B50009EC27A /* ssdp_device_description_webos_minor_dlna.xml in Resources */,
 				4467B5A61A899B50009EC27A /* ssdp_device_description.xml in Resources */,
+				44758BE01AE71E2700EC43A6 /* airplay_playbackinfo_ff.json in Resources */,
 				445822B81A6DA0A500444188 /* getvolume_response_sonos.xml in Resources */,
 				445822B61A6DA0A500444188 /* gettransportinfo_response_sonos.xml in Resources */,
 				4467B5A11A899B50009EC27A /* ssdp_device_description_samsung_tv_dlna.xml in Resources */,
@@ -1333,8 +1364,10 @@
 				445822B51A6DA0A500444188 /* getpositioninfo_response_xbox.xml in Resources */,
 				4467B59D1A899B50009EC27A /* ssdp_device_description_webos_minor.xml in Resources */,
 				4467B59B1A899B50009EC27A /* ssdp_device_description_roku2.xml in Resources */,
+				44758BE31AE71E2700EC43A6 /* airplay_playbackinfo_playing.json in Resources */,
 				445822B31A6DA0A500444188 /* getmute_response_xbox.xml in Resources */,
 				445822B71A6DA0A500444188 /* gettransportinfo_response_xbox.xml in Resources */,
+				44758BE11AE71E2700EC43A6 /* airplay_playbackinfo_finished.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1383,6 +1416,7 @@
 				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
+				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
