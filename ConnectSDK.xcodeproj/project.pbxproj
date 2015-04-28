@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */; };
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
 		44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */; };
@@ -290,6 +291,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+XCTestExpectation.h"; sourceTree = "<group>"; };
+		44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+XCTestExpectation.m"; sourceTree = "<group>"; };
 		44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectSDKDefaultPlatformsTests.m; sourceTree = "<group>"; };
 		44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConnectSDKTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -572,6 +575,8 @@
 			children = (
 				44BCC3EF1AB37613001BCDAA /* NSInvocation+ObjectGetter.h */,
 				44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */,
+				44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */,
+				44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */,
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
 				44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */,
 				44375E8E1A2526F800D2F6DE /* Discovery */,
@@ -1418,6 +1423,7 @@
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
+				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
 			);
