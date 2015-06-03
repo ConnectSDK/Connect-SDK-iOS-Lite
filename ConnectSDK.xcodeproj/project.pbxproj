@@ -27,8 +27,6 @@
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
 		44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */; };
 		44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */; };
-		44375E9F1A254CAA00D2F6DE /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375E9C1A254CAA00D2F6DE /* OCMock.framework */; };
-		44375EA01A254CAA00D2F6DE /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375E9E1A254CAA00D2F6DE /* OHHTTPStubs.framework */; };
 		44375EA41A254DE200D2F6DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA31A254DE200D2F6DE /* libz.dylib */; };
 		44375EA61A254DF400D2F6DE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA51A254DF400D2F6DE /* libicucore.dylib */; };
 		444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */; };
@@ -94,6 +92,18 @@
 		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
 		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
 		44D8F7D41AB22A7C00559FE3 /* ssdp_device_description_lg_speaker.xml in Resources */ = {isa = PBXBuildFile; fileRef = 44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */; };
+		44E98FA41B1E80120043BC70 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E98FA21B1E80120043BC70 /* OCMock.framework */; };
+		44E98FA51B1E80120043BC70 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E98FA31B1E80120043BC70 /* OHHTTPStubs.framework */; };
+		44E98FA81B1E83960043BC70 /* OCMArg+ArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98FA71B1E83960043BC70 /* OCMArg+ArgumentCaptor.m */; };
+		44E98FB31B1E84880043BC70 /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
+		44E98FC41B1E849D0043BC70 /* DLNAServiceIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98FBB1B1E849D0043BC70 /* DLNAServiceIntegrationTests.m */; };
+		44E98FC51B1E849D0043BC70 /* EXPMatchers+matchRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98FBD1B1E849D0043BC70 /* EXPMatchers+matchRegex.m */; };
+		44E98FC61B1E849D0043BC70 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E98FBF1B1E849D0043BC70 /* Expecta.framework */; };
+		44E98FC71B1E849D0043BC70 /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E98FC01B1E849D0043BC70 /* Specta.framework */; };
+		44E98FC91B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98FC31B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.m */; };
+		44E98FCB1B1E85440043BC70 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E98FA21B1E80120043BC70 /* OCMock.framework */; };
+		44E98FCC1B1E85A70043BC70 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA31A254DE200D2F6DE /* libz.dylib */; };
+		44E98FCD1B1E85AA0043BC70 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA51A254DF400D2F6DE /* libicucore.dylib */; };
 		EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F82F3199BDCD300B7302B /* ConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB86D199AEC550057B4B4 /* ConnectSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB79E199AEC550057B4B4 /* ConnectSDK-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -269,6 +279,13 @@
 			remoteGlobalIDString = EA61EB0F18FE485B00D75696;
 			remoteInfo = ConnectSDK;
 		};
+		44E98FB41B1E84880043BC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA61EB0818FE485B00D75696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA61EB0F18FE485B00D75696;
+			remoteInfo = ConnectSDK;
+		};
 		EECAED56193F612100D31F61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA61EB0818FE485B00D75696 /* Project object */;
@@ -299,8 +316,6 @@
 		44375E911A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProviderTests.m; sourceTree = "<group>"; };
 		44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeroConfDiscoveryProviderTests.m; sourceTree = "<group>"; };
 		44375E931A2526F800D2F6DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44375E9C1A254CAA00D2F6DE /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
-		44375E9E1A254CAA00D2F6DE /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
 		44375EA11A254CE900D2F6DE /* SSDPDiscoveryProvider_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSDPDiscoveryProvider_Private.h; sourceTree = "<group>"; };
 		44375EA21A254CE900D2F6DE /* ZeroConfDiscoveryProvider_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroConfDiscoveryProvider_Private.h; sourceTree = "<group>"; };
 		44375EA31A254DE200D2F6DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -372,6 +387,20 @@
 		44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
 		44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
 		44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ssdp_device_description_lg_speaker.xml; sourceTree = "<group>"; };
+		44E98FA21B1E80120043BC70 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
+		44E98FA31B1E80120043BC70 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
+		44E98FA61B1E83960043BC70 /* OCMArg+ArgumentCaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMArg+ArgumentCaptor.h"; sourceTree = "<group>"; };
+		44E98FA71B1E83960043BC70 /* OCMArg+ArgumentCaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMArg+ArgumentCaptor.m"; sourceTree = "<group>"; };
+		44E98FAD1B1E84880043BC70 /* ConnectSDKIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E98FBA1B1E849D0043BC70 /* ConnectSDKIntegrationTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConnectSDKIntegrationTests-Prefix.pch"; sourceTree = "<group>"; };
+		44E98FBB1B1E849D0043BC70 /* DLNAServiceIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAServiceIntegrationTests.m; sourceTree = "<group>"; };
+		44E98FBC1B1E849D0043BC70 /* EXPMatchers+matchRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+matchRegex.h"; sourceTree = "<group>"; };
+		44E98FBD1B1E849D0043BC70 /* EXPMatchers+matchRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+matchRegex.m"; sourceTree = "<group>"; };
+		44E98FBF1B1E849D0043BC70 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Expecta.framework; sourceTree = "<group>"; };
+		44E98FC01B1E849D0043BC70 /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Specta.framework; sourceTree = "<group>"; };
+		44E98FC11B1E849D0043BC70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E98FC21B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+SpectaAsync.h"; sourceTree = "<group>"; };
+		44E98FC31B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+SpectaAsync.m"; sourceTree = "<group>"; };
 		EA41388A18FE51A9002CB005 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectSDKDefaultPlatforms.h; sourceTree = "<group>"; };
 		EA5F82F3199BDCD300B7302B /* ConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectSDK.h; sourceTree = "<group>"; };
@@ -547,11 +576,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E98FA41B1E80120043BC70 /* OCMock.framework in Frameworks */,
 				44375EA61A254DF400D2F6DE /* libicucore.dylib in Frameworks */,
+				44E98FA51B1E80120043BC70 /* OHHTTPStubs.framework in Frameworks */,
 				44375EA41A254DE200D2F6DE /* libz.dylib in Frameworks */,
-				44375EA01A254CAA00D2F6DE /* OHHTTPStubs.framework in Frameworks */,
-				44375E9F1A254CAA00D2F6DE /* OCMock.framework in Frameworks */,
 				44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E98FAA1B1E84880043BC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E98FCB1B1E85440043BC70 /* OCMock.framework in Frameworks */,
+				44E98FCD1B1E85AA0043BC70 /* libicucore.dylib in Frameworks */,
+				44E98FCC1B1E85A70043BC70 /* libz.dylib in Frameworks */,
+				44E98FB31B1E84880043BC70 /* libConnectSDK.a in Frameworks */,
+				44E98FC71B1E849D0043BC70 /* Specta.framework in Frameworks */,
+				44E98FC61B1E849D0043BC70 /* Expecta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,8 +615,11 @@
 		44375E8B1A2526F800D2F6DE /* ConnectSDKTests */ = {
 			isa = PBXGroup;
 			children = (
+				44E98FA11B1E80120043BC70 /* Frameworks */,
 				44BCC3EF1AB37613001BCDAA /* NSInvocation+ObjectGetter.h */,
 				44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */,
+				44E98FA61B1E83960043BC70 /* OCMArg+ArgumentCaptor.h */,
+				44E98FA71B1E83960043BC70 /* OCMArg+ArgumentCaptor.m */,
 				44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */,
 				44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */,
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
@@ -604,22 +649,6 @@
 				44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */,
 			);
 			path = Providers;
-			sourceTree = "<group>";
-		};
-		44375E9B1A254CAA00D2F6DE /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				44375E9C1A254CAA00D2F6DE /* OCMock.framework */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		44375E9D1A254CAA00D2F6DE /* OHHTTPStubs */ = {
-			isa = PBXGroup;
-			children = (
-				44375E9E1A254CAA00D2F6DE /* OHHTTPStubs.framework */,
-			);
-			path = OHHTTPStubs;
 			sourceTree = "<group>";
 		};
 		445822A01A6DA06200444188 /* Helpers */ = {
@@ -731,6 +760,47 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		44E98FA11B1E80120043BC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FA21B1E80120043BC70 /* OCMock.framework */,
+				44E98FA31B1E80120043BC70 /* OHHTTPStubs.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E98FB91B1E849D0043BC70 /* ConnectSDKIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FBE1B1E849D0043BC70 /* Frameworks */,
+				44E98FBC1B1E849D0043BC70 /* EXPMatchers+matchRegex.h */,
+				44E98FBD1B1E849D0043BC70 /* EXPMatchers+matchRegex.m */,
+				44E98FC21B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.h */,
+				44E98FC31B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.m */,
+				44E98FBB1B1E849D0043BC70 /* DLNAServiceIntegrationTests.m */,
+				44E98FBA1B1E849D0043BC70 /* ConnectSDKIntegrationTests-Prefix.pch */,
+				44E98FCA1B1E84B10043BC70 /* Supporting Files */,
+			);
+			path = ConnectSDKIntegrationTests;
+			sourceTree = "<group>";
+		};
+		44E98FBE1B1E849D0043BC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FBF1B1E849D0043BC70 /* Expecta.framework */,
+				44E98FC01B1E849D0043BC70 /* Specta.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E98FCA1B1E84B10043BC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FC11B1E849D0043BC70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EA5FB799199AEC2E0057B4B4 /* Connect SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,6 +821,7 @@
 				EA5FB7B9199AEC550057B4B4 /* Frameworks */,
 				EA5FB802199AEC550057B4B4 /* Helpers */,
 				EA5FB816199AEC550057B4B4 /* Services */,
+				44E98FB91B1E849D0043BC70 /* ConnectSDKIntegrationTests */,
 				44375E8B1A2526F800D2F6DE /* ConnectSDKTests */,
 			);
 			path = core;
@@ -807,8 +878,6 @@
 				EA5FB7BA199AEC550057B4B4 /* asi-http-request */,
 				EA5FB7D5199AEC550057B4B4 /* GCDWebServer */,
 				EA5FB7F6199AEC550057B4B4 /* objc-guid */,
-				44375E9B1A254CAA00D2F6DE /* OCMock */,
-				44375E9D1A254CAA00D2F6DE /* OHHTTPStubs */,
 				EA5FB7FA199AEC550057B4B4 /* SocketRocket */,
 				EA5FB7FE199AEC550057B4B4 /* XMLReader */,
 				44C2CC961AB7971D00B20E46 /* xswi */,
@@ -1126,6 +1195,7 @@
 			children = (
 				EA61EB1018FE485B00D75696 /* libConnectSDK.a */,
 				44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */,
+				44E98FAD1B1E84880043BC70 /* ConnectSDKIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1285,6 +1355,24 @@
 			productReference = 44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		44E98FAC1B1E84880043BC70 /* ConnectSDKIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E98FB61B1E84880043BC70 /* Build configuration list for PBXNativeTarget "ConnectSDKIntegrationTests" */;
+			buildPhases = (
+				44E98FA91B1E84880043BC70 /* Sources */,
+				44E98FAA1B1E84880043BC70 /* Frameworks */,
+				44E98FAB1B1E84880043BC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E98FB51B1E84880043BC70 /* PBXTargetDependency */,
+			);
+			name = ConnectSDKIntegrationTests;
+			productName = ConnectSDKIntegrationTests;
+			productReference = 44E98FAD1B1E84880043BC70 /* ConnectSDKIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EA61EB0F18FE485B00D75696 /* ConnectSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA61EB3318FE485B00D75696 /* Build configuration list for PBXNativeTarget "ConnectSDK" */;
@@ -1316,6 +1404,9 @@
 					44375E7E1A25265600D2F6DE = {
 						CreatedOnToolsVersion = 6.1;
 					};
+					44E98FAC1B1E84880043BC70 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 				};
 			};
 			buildConfigurationList = EA61EB0B18FE485B00D75696 /* Build configuration list for PBXProject "ConnectSDK" */;
@@ -1333,6 +1424,7 @@
 				EA61EB0F18FE485B00D75696 /* ConnectSDK */,
 				EECAED52193F611900D31F61 /* Framework */,
 				44375E7E1A25265600D2F6DE /* ConnectSDKTests */,
+				44E98FAC1B1E84880043BC70 /* ConnectSDKIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1373,6 +1465,13 @@
 				445822B31A6DA0A500444188 /* getmute_response_xbox.xml in Resources */,
 				445822B71A6DA0A500444188 /* gettransportinfo_response_xbox.xml in Resources */,
 				44758BE11AE71E2700EC43A6 /* airplay_playbackinfo_finished.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E98FAB1B1E84880043BC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1425,7 +1524,18 @@
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
 				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
+				44E98FA81B1E83960043BC70 /* OCMArg+ArgumentCaptor.m in Sources */,
 				44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E98FA91B1E84880043BC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E98FC91B1E849D0043BC70 /* OCMStubRecorder+SpectaAsync.m in Sources */,
+				44E98FC51B1E849D0043BC70 /* EXPMatchers+matchRegex.m in Sources */,
+				44E98FC41B1E849D0043BC70 /* DLNAServiceIntegrationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1517,6 +1627,11 @@
 			target = EA61EB0F18FE485B00D75696 /* ConnectSDK */;
 			targetProxy = 44375E861A25265600D2F6DE /* PBXContainerItemProxy */;
 		};
+		44E98FB51B1E84880043BC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA61EB0F18FE485B00D75696 /* ConnectSDK */;
+			targetProxy = 44E98FB41B1E84880043BC70 /* PBXContainerItemProxy */;
+		};
 		EECAED57193F612100D31F61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EA61EB0F18FE485B00D75696 /* ConnectSDK */;
@@ -1545,8 +1660,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/core/Frameworks/OCMock",
-					"$(PROJECT_DIR)/core/Frameworks/OHHTTPStubs",
+					"$(PROJECT_DIR)/core/ConnectSDKTests/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "core/ConnectSDKTests/ConnectSDKTests-Prefix.pch";
@@ -1577,13 +1691,79 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/core/Frameworks/OCMock",
-					"$(PROJECT_DIR)/core/Frameworks/OHHTTPStubs",
+					"$(PROJECT_DIR)/core/ConnectSDKTests/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "core/ConnectSDKTests/ConnectSDKTests-Prefix.pch";
 				INFOPLIST_FILE = core/ConnectSDKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44E98FB71B1E84880043BC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/core/ConnectSDKIntegrationTests/Frameworks",
+					"$(PROJECT_DIR)/core/ConnectSDKTests/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "core/ConnectSDKIntegrationTests/ConnectSDKIntegrationTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = core/ConnectSDKIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44E98FB81B1E84880043BC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/core/ConnectSDKIntegrationTests/Frameworks",
+					"$(PROJECT_DIR)/core/ConnectSDKTests/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "core/ConnectSDKIntegrationTests/ConnectSDKIntegrationTests-Prefix.pch";
+				INFOPLIST_FILE = core/ConnectSDKIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
@@ -1680,7 +1860,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "core/ConnectSDK-Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ConnectSDK;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
@@ -1742,6 +1921,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		44E98FB61B1E84880043BC70 /* Build configuration list for PBXNativeTarget "ConnectSDKIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E98FB71B1E84880043BC70 /* Debug */,
+				44E98FB81B1E84880043BC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		EA61EB0B18FE485B00D75696 /* Build configuration list for PBXProject "ConnectSDK" */ = {
 			isa = XCConfigurationList;

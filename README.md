@@ -54,7 +54,7 @@ You can use `pod "ConnectSDK"` to get the [full version](https://github.com/Conn
 * Partnerships: partners@connectsdk.com
 
 ##Credits
-Connect SDK for iOS makes use of the following projects, some of which are open-source.
+Connect SDK for iOS makes use of the following projects, some of which are open-source:
 
 * [SocketRocket](https://github.com/Square/SocketRocket) (Apache License, Version 2.0)
   - modifications:
@@ -68,6 +68,15 @@ Connect SDK for iOS makes use of the following projects, some of which are open-
     - properly return an error if XML parsing has failed
 * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) (MIT)
 * [xswi](https://github.com/skjolber/xswi) (MIT)
+
+These projects are used in tests:
+
+* [OCMock](http://ocmock.org/) (Apache License, Version 2.0)
+* [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs/) (MIT)
+* [Specta](https://github.com/specta/specta/) (MIT)
+* [Expecta](https://github.com/specta/expecta/) (MIT)
+
+This public domain image is used in tests: [The San Francisco peaks of flagstaff public domain image](http://www.public-domain-image.com/free-images/nature-landscapes/peaks/the-san-francisco-peaks-of-flagstaff).
 
 ##License
 Copyright (c) 2013-2014 LG Electronics.
