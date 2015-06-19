@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */; };
 		44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */; };
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
@@ -312,6 +313,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebOSWebAppSessionTests.m; path = Sessions/WebOSWebAppSessionTests.m; sourceTree = "<group>"; };
 		44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+XCTestExpectation.h"; sourceTree = "<group>"; };
 		44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+XCTestExpectation.m"; sourceTree = "<group>"; };
 		44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -618,6 +620,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE5F0B51B3395E70009F27D /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */,
+			);
+			name = Sessions;
+			sourceTree = "<group>";
+		};
 		44375E8B1A2526F800D2F6DE /* ConnectSDKTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -736,6 +746,7 @@
 		44CEF5911A43598F00D069C8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0FE5F0B51B3395E70009F27D /* Sessions */,
 				44CEF5921A43598F00D069C8 /* Helpers */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
 				44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */,
@@ -1539,6 +1550,7 @@
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
+				0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
 				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
