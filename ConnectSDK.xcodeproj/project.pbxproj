@@ -36,6 +36,9 @@
 		441C9EF01B3DBF2700F912D5 /* SynchronousBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441C9EF11B3DBF2700F912D5 /* SynchronousBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */; };
 		441C9EF71B3DBF9300F912D5 /* ServiceDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */; };
+		441C9EFA1B3DCB5200F912D5 /* SubscriptionDeduplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EF81B3DCB5200F912D5 /* SubscriptionDeduplicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441C9EFB1B3DCB5200F912D5 /* SubscriptionDeduplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EF91B3DCB5200F912D5 /* SubscriptionDeduplicator.m */; };
+		441C9EFD1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EFC1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m */; };
 		44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */; };
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
@@ -339,6 +342,9 @@
 		441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousBlockRunner.m; sourceTree = "<group>"; };
 		441C9EF21B3DBF4A00F912D5 /* DiscoveryManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryManager_Private.h; sourceTree = "<group>"; };
 		441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDescriptionTests.m; sourceTree = "<group>"; };
+		441C9EF81B3DCB5200F912D5 /* SubscriptionDeduplicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionDeduplicator.h; sourceTree = "<group>"; };
+		441C9EF91B3DCB5200F912D5 /* SubscriptionDeduplicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionDeduplicator.m; sourceTree = "<group>"; };
+		441C9EFC1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionDeduplicatorTests.m; sourceTree = "<group>"; };
 		44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+XCTestExpectation.h"; sourceTree = "<group>"; };
 		44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+XCTestExpectation.m"; sourceTree = "<group>"; };
 		44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -730,6 +736,7 @@
 				441C9EDB1B3DBEC700F912D5 /* BlockRunner */,
 				441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */,
 				445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */,
+				441C9EFC1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1146,6 +1153,8 @@
 				EA5FB811199AEC550057B4B4 /* ProgramInfo.m */,
 				EA5FB812199AEC550057B4B4 /* SSDPSocketListener.h */,
 				EA5FB813199AEC550057B4B4 /* SSDPSocketListener.m */,
+				441C9EF81B3DCB5200F912D5 /* SubscriptionDeduplicator.h */,
+				441C9EF91B3DCB5200F912D5 /* SubscriptionDeduplicator.m */,
 				EA5FB814199AEC550057B4B4 /* TextInputStatusInfo.h */,
 				EA5FB815199AEC550057B4B4 /* TextInputStatusInfo.m */,
 			);
@@ -1415,6 +1424,7 @@
 				44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */,
 				EA5FB8C8199AEC560057B4B4 /* ProgramInfo.h in Headers */,
 				EA5FB87B199AEC550057B4B4 /* DiscoveryManagerDelegate.h in Headers */,
+				441C9EFA1B3DCB5200F912D5 /* SubscriptionDeduplicator.h in Headers */,
 				EA5FB8A7199AEC560057B4B4 /* GCDWebServerFileRequest.h in Headers */,
 				EA5FB8AF199AEC560057B4B4 /* GCDWebServerErrorResponse.h in Headers */,
 				EA5FB8B5199AEC560057B4B4 /* CTGuid.h in Headers */,
@@ -1624,6 +1634,7 @@
 				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
 				0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
+				441C9EFD1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m in Sources */,
 				441C9EE11B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m in Sources */,
 				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
@@ -1683,6 +1694,7 @@
 				445822BF1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m in Sources */,
 				EA5FB880199AEC550057B4B4 /* SSDPDiscoveryProvider.m in Sources */,
 				EA5FB8CD199AEC560057B4B4 /* TextInputStatusInfo.m in Sources */,
+				441C9EFB1B3DCB5200F912D5 /* SubscriptionDeduplicator.m in Sources */,
 				EA5FB8EE199AEC570057B4B4 /* DeviceService.m in Sources */,
 				EA5FB875199AEC550057B4B4 /* DevicePicker.m in Sources */,
 				EA5FB8CF199AEC560057B4B4 /* AirPlayService.m in Sources */,
