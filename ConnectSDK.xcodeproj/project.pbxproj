@@ -23,6 +23,20 @@
 
 /* Begin PBXBuildFile section */
 		0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */; };
+		441C9ED81B3DBEA700F912D5 /* DiscoveryManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */; };
+		441C9EDA1B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */; };
+		441C9EDF1B3DBEC700F912D5 /* BlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */; };
+		441C9EE01B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDD1B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m */; };
+		441C9EE11B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDE1B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m */; };
+		441C9EEB1B3DBF2700F912D5 /* AppStateChangeNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE31B3DBF2700F912D5 /* AppStateChangeNotifier.h */; };
+		441C9EEC1B3DBF2700F912D5 /* AppStateChangeNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EE41B3DBF2700F912D5 /* AppStateChangeNotifier.m */; };
+		441C9EED1B3DBF2700F912D5 /* BlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE61B3DBF2700F912D5 /* BlockRunner.h */; };
+		441C9EEE1B3DBF2700F912D5 /* DispatchQueueBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE71B3DBF2700F912D5 /* DispatchQueueBlockRunner.h */; };
+		441C9EEF1B3DBF2700F912D5 /* DispatchQueueBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EE81B3DBF2700F912D5 /* DispatchQueueBlockRunner.m */; };
+		441C9EF01B3DBF2700F912D5 /* SynchronousBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */; };
+		441C9EF11B3DBF2700F912D5 /* SynchronousBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */; };
+		441C9EF31B3DBF4A00F912D5 /* DiscoveryManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EF21B3DBF4A00F912D5 /* DiscoveryManager_Private.h */; };
+		441C9EF71B3DBF9300F912D5 /* ServiceDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */; };
 		44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */; };
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
 		44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */; };
@@ -315,6 +329,20 @@
 
 /* Begin PBXFileReference section */
 		0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebOSWebAppSessionTests.m; path = Sessions/WebOSWebAppSessionTests.m; sourceTree = "<group>"; };
+		441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryManagerTests.m; sourceTree = "<group>"; };
+		441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateChangeNotifierTests.m; sourceTree = "<group>"; };
+		441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockRunnerTests.m; sourceTree = "<group>"; };
+		441C9EDD1B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueBlockRunnerTests.m; sourceTree = "<group>"; };
+		441C9EDE1B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousBlockRunnerTests.m; sourceTree = "<group>"; };
+		441C9EE31B3DBF2700F912D5 /* AppStateChangeNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStateChangeNotifier.h; sourceTree = "<group>"; };
+		441C9EE41B3DBF2700F912D5 /* AppStateChangeNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateChangeNotifier.m; sourceTree = "<group>"; };
+		441C9EE61B3DBF2700F912D5 /* BlockRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockRunner.h; sourceTree = "<group>"; };
+		441C9EE71B3DBF2700F912D5 /* DispatchQueueBlockRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueBlockRunner.h; sourceTree = "<group>"; };
+		441C9EE81B3DBF2700F912D5 /* DispatchQueueBlockRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueBlockRunner.m; sourceTree = "<group>"; };
+		441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronousBlockRunner.h; sourceTree = "<group>"; };
+		441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousBlockRunner.m; sourceTree = "<group>"; };
+		441C9EF21B3DBF4A00F912D5 /* DiscoveryManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryManager_Private.h; sourceTree = "<group>"; };
+		441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDescriptionTests.m; sourceTree = "<group>"; };
 		44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+XCTestExpectation.h"; sourceTree = "<group>"; };
 		44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+XCTestExpectation.m"; sourceTree = "<group>"; };
 		44375E7F1A25265600D2F6DE /* ConnectSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -630,6 +658,36 @@
 			name = Sessions;
 			sourceTree = "<group>";
 		};
+		441C9EDB1B3DBEC700F912D5 /* BlockRunner */ = {
+			isa = PBXGroup;
+			children = (
+				441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */,
+				441C9EDD1B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m */,
+				441C9EDE1B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m */,
+			);
+			path = BlockRunner;
+			sourceTree = "<group>";
+		};
+		441C9EE51B3DBF2700F912D5 /* BlockRunner */ = {
+			isa = PBXGroup;
+			children = (
+				441C9EE61B3DBF2700F912D5 /* BlockRunner.h */,
+				441C9EE71B3DBF2700F912D5 /* DispatchQueueBlockRunner.h */,
+				441C9EE81B3DBF2700F912D5 /* DispatchQueueBlockRunner.m */,
+				441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */,
+				441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */,
+			);
+			path = BlockRunner;
+			sourceTree = "<group>";
+		};
+		441C9EF51B3DBF9300F912D5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		44375E8B1A2526F800D2F6DE /* ConnectSDKTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +711,7 @@
 		44375E8E1A2526F800D2F6DE /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */,
 				44375E8F1A2526F800D2F6DE /* Providers */,
 			);
 			path = Discovery;
@@ -672,6 +731,8 @@
 		445822A01A6DA06200444188 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				441C9EDB1B3DBEC700F912D5 /* BlockRunner */,
+				441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */,
 				445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */,
 			);
 			path = Helpers;
@@ -748,6 +809,7 @@
 		44CEF5911A43598F00D069C8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				441C9EF51B3DBF9300F912D5 /* Config */,
 				0FE5F0B51B3395E70009F27D /* Sessions */,
 				44CEF5921A43598F00D069C8 /* Helpers */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
@@ -878,6 +940,7 @@
 				EA5FB7AA199AEC550057B4B4 /* CapabilityFilter.h */,
 				EA5FB7AB199AEC550057B4B4 /* CapabilityFilter.m */,
 				EA5FB7AC199AEC550057B4B4 /* DiscoveryManager.h */,
+				441C9EF21B3DBF4A00F912D5 /* DiscoveryManager_Private.h */,
 				EA5FB7AD199AEC550057B4B4 /* DiscoveryManager.m */,
 				EA5FB7AE199AEC550057B4B4 /* DiscoveryManagerDelegate.h */,
 				EA5FB7AF199AEC550057B4B4 /* DiscoveryProvider.h */,
@@ -1056,8 +1119,11 @@
 		EA5FB802199AEC550057B4B4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				441C9EE51B3DBF2700F912D5 /* BlockRunner */,
 				EA5FB803199AEC550057B4B4 /* AppInfo.h */,
 				EA5FB804199AEC550057B4B4 /* AppInfo.m */,
+				441C9EE31B3DBF2700F912D5 /* AppStateChangeNotifier.h */,
+				441C9EE41B3DBF2700F912D5 /* AppStateChangeNotifier.m */,
 				EA5FB805199AEC550057B4B4 /* ChannelInfo.h */,
 				EA5FB806199AEC550057B4B4 /* ChannelInfo.m */,
 				445ACC9A1AC3762F00A651BA /* CommonMacros.h */,
@@ -1268,6 +1334,7 @@
 				EA5FB8DC199AEC560057B4B4 /* WebAppLauncher.h in Headers */,
 				EA5FB8BB199AEC560057B4B4 /* AppInfo.h in Headers */,
 				EA5FB8B1199AEC560057B4B4 /* GCDWebServerFileResponse.h in Headers */,
+				441C9EF01B3DBF2700F912D5 /* SynchronousBlockRunner.h in Headers */,
 				EA5FB896199AEC560057B4B4 /* CTASIProgressDelegate.h in Headers */,
 				EA5FB88E199AEC560057B4B4 /* CTASIHTTPRequest.h in Headers */,
 				EA5FB8E6199AEC560057B4B4 /* ServiceConfig.h in Headers */,
@@ -1284,6 +1351,7 @@
 				EA5FB8DD199AEC560057B4B4 /* ServiceAsyncCommand.h in Headers */,
 				EA5FB8CA199AEC560057B4B4 /* SSDPSocketListener.h in Headers */,
 				EA5FB8DF199AEC560057B4B4 /* ServiceCommand.h in Headers */,
+				441C9EEE1B3DBF2700F912D5 /* DispatchQueueBlockRunner.h in Headers */,
 				44C2CCA51AB7A68100B20E46 /* NSString+Common.h in Headers */,
 				EA5FB8E1199AEC560057B4B4 /* ServiceCommandDelegate.h in Headers */,
 				EA5FB8D1199AEC560057B4B4 /* ExternalInputControl.h in Headers */,
@@ -1292,6 +1360,7 @@
 				444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */,
 				EA5FB8CC199AEC560057B4B4 /* TextInputStatusInfo.h in Headers */,
 				EA5FB88C199AEC560057B4B4 /* CTASIFormDataRequest.h in Headers */,
+				441C9EED1B3DBF2700F912D5 /* BlockRunner.h in Headers */,
 				EA5FB8C1199AEC560057B4B4 /* ConnectUtil.h in Headers */,
 				EA5FB8DA199AEC560057B4B4 /* TVControl.h in Headers */,
 				EA5FB8AD199AEC560057B4B4 /* GCDWebServerDataResponse.h in Headers */,
@@ -1299,6 +1368,7 @@
 				EA5FB8E8199AEC560057B4B4 /* ServiceConfigDelegate.h in Headers */,
 				EA5FB8D7199AEC560057B4B4 /* PowerControl.h in Headers */,
 				EA5FB8F0199AEC570057B4B4 /* DIALService.h in Headers */,
+				441C9EF31B3DBF4A00F912D5 /* DiscoveryManager_Private.h in Headers */,
 				EA5FB8F2199AEC570057B4B4 /* DLNAService.h in Headers */,
 				EA5FB8D3199AEC560057B4B4 /* Launcher.h in Headers */,
 				EA5FB8FA199AEC570057B4B4 /* WebOSTVServiceSocketClient.h in Headers */,
@@ -1360,6 +1430,7 @@
 				EA5FB8B7199AEC560057B4B4 /* LGSRWebSocket.h in Headers */,
 				EA5FB8B3199AEC560057B4B4 /* GCDWebServerStreamedResponse.h in Headers */,
 				EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */,
+				441C9EEB1B3DBF2700F912D5 /* AppStateChangeNotifier.h in Headers */,
 				EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */,
 				446DB82D1A25596800D2359E /* MediaInfo.h in Headers */,
 			);
@@ -1546,16 +1617,22 @@
 			files = (
 				44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */,
 				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
+				441C9EF71B3DBF9300F912D5 /* ServiceDescriptionTests.m in Sources */,
 				44A5519C1AC34D56001AF783 /* WebOSTVServiceTests.m in Sources */,
+				441C9EE01B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m in Sources */,
+				441C9EDA1B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m in Sources */,
+				441C9EDF1B3DBEC700F912D5 /* BlockRunnerTests.m in Sources */,
 				44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */,
 				445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */,
 				445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */,
 				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
+				441C9ED81B3DBEA700F912D5 /* DiscoveryManagerTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
 				0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
+				441C9EE11B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m in Sources */,
 				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
 				44E98FA81B1E83960043BC70 /* OCMArg+ArgumentCaptor.m in Sources */,
@@ -1594,8 +1671,10 @@
 				EA5FB873199AEC550057B4B4 /* DefaultConnectableDeviceStore.m in Sources */,
 				EA5FB8E3199AEC560057B4B4 /* ServiceSubscription.m in Sources */,
 				EA5FB8F9199AEC570057B4B4 /* WebOSTVServiceMouse.m in Sources */,
+				441C9EEC1B3DBF2700F912D5 /* AppStateChangeNotifier.m in Sources */,
 				EA5FB88B199AEC560057B4B4 /* CTASIDownloadCache.m in Sources */,
 				EA5FB878199AEC550057B4B4 /* CapabilityFilter.m in Sources */,
+				441C9EEF1B3DBF2700F912D5 /* DispatchQueueBlockRunner.m in Sources */,
 				EA5FB8F3199AEC570057B4B4 /* DLNAService.m in Sources */,
 				EA5FB8B8199AEC560057B4B4 /* LGSRWebSocket.m in Sources */,
 				EA5FB8EC199AEC570057B4B4 /* WebOSTVServiceConfig.m in Sources */,
@@ -1652,6 +1731,7 @@
 				EA5FB889199AEC560057B4B4 /* CTASIDataDecompressor.m in Sources */,
 				EA5FB8AA199AEC560057B4B4 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				EA5FB8E0199AEC560057B4B4 /* ServiceCommand.m in Sources */,
+				441C9EF11B3DBF2700F912D5 /* SynchronousBlockRunner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
