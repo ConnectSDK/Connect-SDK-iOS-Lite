@@ -28,14 +28,13 @@
 		441C9EDF1B3DBEC700F912D5 /* BlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */; };
 		441C9EE01B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDD1B3DBEC700F912D5 /* DispatchQueueBlockRunnerTests.m */; };
 		441C9EE11B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDE1B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m */; };
-		441C9EEB1B3DBF2700F912D5 /* AppStateChangeNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE31B3DBF2700F912D5 /* AppStateChangeNotifier.h */; };
+		441C9EEB1B3DBF2700F912D5 /* AppStateChangeNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE31B3DBF2700F912D5 /* AppStateChangeNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441C9EEC1B3DBF2700F912D5 /* AppStateChangeNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EE41B3DBF2700F912D5 /* AppStateChangeNotifier.m */; };
-		441C9EED1B3DBF2700F912D5 /* BlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE61B3DBF2700F912D5 /* BlockRunner.h */; };
-		441C9EEE1B3DBF2700F912D5 /* DispatchQueueBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE71B3DBF2700F912D5 /* DispatchQueueBlockRunner.h */; };
+		441C9EED1B3DBF2700F912D5 /* BlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE61B3DBF2700F912D5 /* BlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441C9EEE1B3DBF2700F912D5 /* DispatchQueueBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE71B3DBF2700F912D5 /* DispatchQueueBlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441C9EEF1B3DBF2700F912D5 /* DispatchQueueBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EE81B3DBF2700F912D5 /* DispatchQueueBlockRunner.m */; };
-		441C9EF01B3DBF2700F912D5 /* SynchronousBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */; };
+		441C9EF01B3DBF2700F912D5 /* SynchronousBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EE91B3DBF2700F912D5 /* SynchronousBlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441C9EF11B3DBF2700F912D5 /* SynchronousBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EEA1B3DBF2700F912D5 /* SynchronousBlockRunner.m */; };
-		441C9EF31B3DBF4A00F912D5 /* DiscoveryManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C9EF21B3DBF4A00F912D5 /* DiscoveryManager_Private.h */; };
 		441C9EF71B3DBF9300F912D5 /* ServiceDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EF61B3DBF9300F912D5 /* ServiceDescriptionTests.m */; };
 		44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */; };
 		44375E851A25265600D2F6DE /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
@@ -44,7 +43,7 @@
 		44375E971A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44375E921A2526F800D2F6DE /* ZeroConfDiscoveryProviderTests.m */; };
 		44375EA41A254DE200D2F6DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA31A254DE200D2F6DE /* libz.dylib */; };
 		44375EA61A254DF400D2F6DE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44375EA51A254DF400D2F6DE /* libicucore.dylib */; };
-		444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */; };
+		444CDE281A2FA2140091B0CF /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		444CDE291A2FA2140091B0CF /* DLNAHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */; };
 		445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822A31A6DA09400444188 /* DLNAHTTPServerTests.m */; };
 		445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */; };
@@ -59,11 +58,9 @@
 		445822B91A6DA0A500444188 /* getvolume_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AE1A6DA0A500444188 /* getvolume_response_xbox.xml */; };
 		445822BA1A6DA0A500444188 /* upnperror_response_sonos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822AF1A6DA0A500444188 /* upnperror_response_sonos.xml */; };
 		445822BB1A6DA0A500444188 /* upnperror_response_xbox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 445822B01A6DA0A500444188 /* upnperror_response_xbox.xml */; };
-		445822BE1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */; };
+		445822BE1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822BC1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445822BF1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 445822BD1A6DA0CC00444188 /* NSDictionary+KeyPredicateSearch.m */; };
-		445822C11A6DA0EF00444188 /* DLNAHTTPServer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822C01A6DA0EF00444188 /* DLNAHTTPServer_Private.h */; };
-		445822C31A6DA11500444188 /* DLNAService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 445822C21A6DA11500444188 /* DLNAService_Private.h */; };
-		445ACC9B1AC3762F00A651BA /* CommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 445ACC9A1AC3762F00A651BA /* CommonMacros.h */; };
+		445ACC9B1AC3762F00A651BA /* CommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 445ACC9A1AC3762F00A651BA /* CommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4467B5991A899B50009EC27A /* ssdp_device_description_chromecast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5881A899B50009EC27A /* ssdp_device_description_chromecast.xml */; };
 		4467B59A1A899B50009EC27A /* ssdp_device_description_firetv.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B5891A899B50009EC27A /* ssdp_device_description_firetv.xml */; };
 		4467B59B1A899B50009EC27A /* ssdp_device_description_roku2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4467B58A1A899B50009EC27A /* ssdp_device_description_roku2.xml */; };
@@ -97,14 +94,13 @@
 		44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */; };
 		44A5519C1AC34D56001AF783 /* WebOSTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5519B1AC34D56001AF783 /* WebOSTVServiceTests.m */; };
 		44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCC3F01AB37613001BCDAA /* NSInvocation+ObjectGetter.m */; };
-		44C2CC991AB7971D00B20E46 /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC971AB7971D00B20E46 /* XMLWriter.h */; };
+		44C2CC991AB7971D00B20E46 /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC971AB7971D00B20E46 /* XMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44C2CC9A1AB7971D00B20E46 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CC981AB7971D00B20E46 /* XMLWriter.m */; };
-		44C2CC9D1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC9B1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h */; };
+		44C2CC9D1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CC9B1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44C2CC9E1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CC9C1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m */; };
-		44C2CCA51AB7A68100B20E46 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CCA31AB7A68100B20E46 /* NSString+Common.h */; };
+		44C2CCA51AB7A68100B20E46 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C2CCA31AB7A68100B20E46 /* NSString+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44C2CCA61AB7A68100B20E46 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2CCA41AB7A68100B20E46 /* NSString+Common.m */; };
-		44C3900D1B349AB100723388 /* WebOSWebAppSession_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C3900C1B349AB100723388 /* WebOSWebAppSession_Private.h */; };
-		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; };
+		44CEF58F1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CEF58D1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44CEF5901A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF58E1A43593700D069C8 /* AirPlayServiceHTTPKeepAlive.m */; };
 		44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF5931A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m */; };
 		44D8F7D41AB22A7C00559FE3 /* ssdp_device_description_lg_speaker.xml in Resources */ = {isa = PBXBuildFile; fileRef = 44D8F7D31AB22A7500559FE3 /* ssdp_device_description_lg_speaker.xml */; };
@@ -1342,9 +1338,7 @@
 				4467B5AF1A899BBF009EC27A /* PlayListControl.h in Headers */,
 				EA5FB8D6199AEC560057B4B4 /* MouseControl.h in Headers */,
 				EA5FB909199AEC570057B4B4 /* WebOSTVService.h in Headers */,
-				445822C31A6DA11500444188 /* DLNAService_Private.h in Headers */,
 				EA5FB8CE199AEC560057B4B4 /* AirPlayService.h in Headers */,
-				44C3900D1B349AB100723388 /* WebOSWebAppSession_Private.h in Headers */,
 				EA5FB89F199AEC560057B4B4 /* GCDWebServerHTTPStatusCodes.h in Headers */,
 				EA5FB8E4199AEC560057B4B4 /* NetcastTVServiceConfig.h in Headers */,
 				EA5FB906199AEC570057B4B4 /* WebAppSessionDelegate.h in Headers */,
@@ -1368,7 +1362,6 @@
 				EA5FB8E8199AEC560057B4B4 /* ServiceConfigDelegate.h in Headers */,
 				EA5FB8D7199AEC560057B4B4 /* PowerControl.h in Headers */,
 				EA5FB8F0199AEC570057B4B4 /* DIALService.h in Headers */,
-				441C9EF31B3DBF4A00F912D5 /* DiscoveryManager_Private.h in Headers */,
 				EA5FB8F2199AEC570057B4B4 /* DLNAService.h in Headers */,
 				EA5FB8D3199AEC560057B4B4 /* Launcher.h in Headers */,
 				EA5FB8FA199AEC570057B4B4 /* WebOSTVServiceSocketClient.h in Headers */,
@@ -1403,7 +1396,6 @@
 				EA5FB8EB199AEC570057B4B4 /* WebOSTVServiceConfig.h in Headers */,
 				EA5FB8D0199AEC560057B4B4 /* Capability.h in Headers */,
 				4467B5AC1A899BAA009EC27A /* MediaLaunchObject.h in Headers */,
-				445822C11A6DA0EF00444188 /* DLNAHTTPServer_Private.h in Headers */,
 				EA5FB8EF199AEC570057B4B4 /* DeviceServiceDelegate.h in Headers */,
 				EA5FB87C199AEC550057B4B4 /* DiscoveryProvider.h in Headers */,
 				EA5FB8C7199AEC560057B4B4 /* JSONObjectCoding.h in Headers */,
