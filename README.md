@@ -47,6 +47,26 @@ You can use `pod "ConnectSDK"` to get the [full version](https://github.com/Conn
 2. Drag the ConnectSDKStrings folder into your project's library
 3. You may make whatever changes you would like to the values and the SDK will use your strings file
 
+## Tests
+
+Connect SDK has tests for some parts of the code, and we are continuing to increase the test coverage. There are currently three types of tests:
+
+Type | Target &amp; Scheme | Frameworks used | Uses network | Fast | Reliable
+-----|---------------------|-----------------|:------------:|:----:|:-------:
+Unit tests | `ConnectSDKTests` | `OCMock`, `OHHTTPStubs`, `XCTest` | **-** | **+** | **+**
+Integration tests | `ConnectSDKIntegrationTests` | `Expecta`, `OCMock`, `Specta` | **-** | **+** | **+**
+Acceptance (aka End-To-End) tests | `ConnectSDKAcceptanceTests` | `Expecta`, `OCMock`, `Specta` | **+** | **-** | **±**
+
+* **Unit** tests are for small components and usually test one class/method. They use mocks to inject the dependencies.
+
+* **Integration** tests verify the behavior of the whole Connect SDK, but without external environment (network and devices), so that they can be reliable and fast.
+
+* **Acceptance** tests verify the end-to-end behavior of Connect SDK and real devices, so they won't work out of the box in a different environment. Some acceptance tests also expect certain properties of those devices, such as name or IP address, which should be altered to match your particular setup.
+
+The required third-party test frameworks are already pre-built and included in the `core` submodule.
+
+All of the test targets are compiled when the main `ConnectSDK` scheme is built, but only the unit tests are setup to run when testing the scheme. The other tests can be run by selecting the corresponding scheme.
+
 ##Contact
 * Twitter: [@ConnectSDK](https://www.twitter.com/ConnectSDK)
 * Ask a question with the "tv" tag on [Stack Overflow](http://stackoverflow.com/tags/tv)
