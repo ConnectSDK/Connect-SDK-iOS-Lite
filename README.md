@@ -10,11 +10,11 @@ For more information, visit our [website](http://www.connectsdk.com/).
 * [API documentation](http://www.connectsdk.com/apis/ios/)
 
 ##Dependencies
-This project has the following dependencies.
+This project has the following dependencies:
 
-* libicucore.dylib
-* libz.dylib
-* Other linker flags: -ObjC
+* `libicucore.dylib`
+* `libz.dylib`
+* Other linker flags: `-ObjC`
 * Automatic Reference Counting (ARC)
 * [Connect-SDK-iOS-Core](https://github.com/ConnectSDK/Connect-SDK-iOS-Core) submodule
 
@@ -28,19 +28,17 @@ You can use `pod "ConnectSDK"` to get the [full version](https://github.com/Conn
 
 ###Without CocoaPods
 
-1. Clone repository (or download & unzip)
-2. Set up the submodules by running the following commands in Terminal
-   - `git submodule init`
-   - `git submodule update`
+1. Clone repository (`git clone https://github.com/ConnectSDK/Connect-SDK-iOS-Lite.git`)
+2. Set up the submodules by running the following command (in the `Connect-SDK-iOS/` directory in this example): `git submodule update --init`
 3. Open your project in Xcode
 4. Locate the Connect SDK Xcode project in the Finder
-5. Drag the Connect SDK Xcode project into your project's Xcode library
-6. Navigate to your project's settings screen, then navigate to the Build Phases tab
-7. Add ConnectSDK as a Target Dependency
-8. Add the following in the `Link Binary With Libraries` section
-   - libConnectSDK.a
-   - libz.dylib
-   - libicucore.dylib
+5. Drag the Connect SDK Xcode project (`ConnectSDK.xcodeproj`) into your project's Xcode library
+6. Navigate to your target's settings screen, then navigate to the "Build Phases" tab
+7. Add the following in the "Link Binary With Libraries" section
+ - `libConnectSDK.a`
+ - `libz.dylib`
+ - `libicucore.dylib`
+8. Navigate to the "Build Settings" tab and add `-ObjC` to your target's "Other Linker Flags"
 
 ###Include Strings File for Localization (optional)
 1. Locate the Connect SDK Xcode project in the Finder
