@@ -66,10 +66,10 @@ The required third-party test frameworks are already pre-built and included in t
 All of the test targets are compiled when the main `ConnectSDK` scheme is built, but only the unit tests are setup to run when testing the scheme. The other tests can be run by selecting the corresponding scheme.
 
 ##Contact
-* Twitter: [@ConnectSDK](https://www.twitter.com/ConnectSDK)
-* Ask a question with the "tv" tag on [Stack Overflow](http://stackoverflow.com/tags/tv)
-* Developer Support: support@connectsdk.com
-* Partnerships: partners@connectsdk.com
+- Twitter: [@ConnectSDK](https://twitter.com/ConnectSDK)
+- Ask a question on Stack Overflow with the [Connect-SDK tag](https://stackoverflow.com/tags/connect-sdk) (or [TV tag](https://stackoverflow.com/tags/tv))
+- Developer Support: [support@connectsdk.com](mailto:support@connectsdk.com)
+- Partnerships: [partners@connectsdk.com](mailto:partners@connectsdk.com)
 
 ##Credits
 Connect SDK for iOS makes use of the following projects, some of which are open-source:
