@@ -34,6 +34,20 @@
                ReferencedContainer = "container:ConnectSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44BEBF571B4F341A00DA1A1D"
+               BuildableName = "ConnectSDKAcceptanceTests.xctest"
+               BlueprintName = "ConnectSDKAcceptanceTests"
+               ReferencedContainer = "container:ConnectSDK.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -95,6 +109,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "44E98FAC1B1E84880043BC70"
+            BuildableName = "ConnectSDKIntegrationTests.xctest"
+            BlueprintName = "ConnectSDKIntegrationTests"
+            ReferencedContainer = "container:ConnectSDK.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
