@@ -838,8 +838,7 @@
 				44BEBF701B4F347800DA1A1D /* DLNAServiceAcceptanceTests.m */,
 				44BEBF751B4F34A300DA1A1D /* Supporting Files */,
 			);
-			name = ConnectSDKAcceptanceTests;
-			path = "../../Connect-SDK-iOS/core/ConnectSDKAcceptanceTests";
+			path = ConnectSDKAcceptanceTests;
 			sourceTree = "<group>";
 		};
 		44BEBF751B4F34A300DA1A1D /* Supporting Files */ = {
