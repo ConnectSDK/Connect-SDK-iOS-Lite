@@ -23,6 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */; };
+		4412173A1B5974220087A32A /* RokuServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441217391B5974220087A32A /* RokuServiceTests.m */; };
 		441C9ED81B3DBEA700F912D5 /* DiscoveryManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */; };
 		441C9EDA1B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */; };
 		441C9EDF1B3DBEC700F912D5 /* BlockRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */; };
@@ -344,6 +345,8 @@
 
 /* Begin PBXFileReference section */
 		0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebOSWebAppSessionTests.m; path = Sessions/WebOSWebAppSessionTests.m; sourceTree = "<group>"; };
+		441217381B5973F50087A32A /* RokuService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RokuService_Private.h; sourceTree = "<group>"; };
+		441217391B5974220087A32A /* RokuServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuServiceTests.m; sourceTree = "<group>"; };
 		441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryManagerTests.m; sourceTree = "<group>"; };
 		441C9ED91B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateChangeNotifierTests.m; sourceTree = "<group>"; };
 		441C9EDC1B3DBEC700F912D5 /* BlockRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockRunnerTests.m; sourceTree = "<group>"; };
@@ -866,6 +869,7 @@
 				44CEF5921A43598F00D069C8 /* Helpers */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
 				44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */,
+				441217391B5974220087A32A /* RokuServiceTests.m */,
 				44A5519B1AC34D56001AF783 /* WebOSTVServiceTests.m */,
 				445822A71A6DA0A500444188 /* getmute_response_sonos.xml */,
 				445822A81A6DA0A500444188 /* getmute_response_xbox.xml */,
@@ -1230,6 +1234,7 @@
 				44A551921AC1F06A001AF783 /* NetcastTVService_Private.h */,
 				EA5FB84A199AEC550057B4B4 /* NetcastTVService.m */,
 				EA5FB84B199AEC550057B4B4 /* RokuService.h */,
+				441217381B5973F50087A32A /* RokuService_Private.h */,
 				EA5FB84C199AEC550057B4B4 /* RokuService.m */,
 				EA5FB84D199AEC550057B4B4 /* Sessions */,
 				EA5FB857199AEC550057B4B4 /* WebOSTVService.h */,
@@ -1710,6 +1715,7 @@
 				0FE5F0B91B3396A80009F27D /* WebOSWebAppSessionTests.m in Sources */,
 				4467B5B11A899C19009EC27A /* WebOSTVServiceSocketClientTests.m in Sources */,
 				441C9EFD1B3DCEB700F912D5 /* SubscriptionDeduplicatorTests.m in Sources */,
+				4412173A1B5974220087A32A /* RokuServiceTests.m in Sources */,
 				441C9EE11B3DBEC700F912D5 /* SynchronousBlockRunnerTests.m in Sources */,
 				44316ED91AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
 				44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */,
