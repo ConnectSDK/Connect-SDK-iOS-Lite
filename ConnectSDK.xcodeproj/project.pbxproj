@@ -95,6 +95,10 @@
 		44758BE31AE71E2700EC43A6 /* airplay_playbackinfo_playing.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDE1AE71E2700EC43A6 /* airplay_playbackinfo_playing.json */; };
 		44758BE41AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BDF1AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json */; };
 		449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */; };
+		44A0900A1B6C0E520077E87D /* XCTestCase+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A090091B6C0E520077E87D /* XCTestCase+Common.m */; };
+		44A0900C1B6C0E860077E87D /* AirPlayServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0900B1B6C0E860077E87D /* AirPlayServiceTests.m */; };
+		44A0900E1B6C0E960077E87D /* WebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */; };
+		44A090131B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A090111B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m */; };
 		44A551911AC1F047001AF783 /* NetcastTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */; };
 		44A5519C1AC34D56001AF783 /* WebOSTVServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5519B1AC34D56001AF783 /* WebOSTVServiceTests.m */; };
 		44B43B131B680D35004083E5 /* MediaInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B43B101B680D35004083E5 /* MediaInfoTests.m */; };
@@ -435,6 +439,13 @@
 		44758BDE1AE71E2700EC43A6 /* airplay_playbackinfo_playing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_playing.json; sourceTree = "<group>"; };
 		44758BDF1AE71E2700EC43A6 /* airplay_playbackinfo_rewind.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_rewind.json; sourceTree = "<group>"; };
 		449D5D601A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
+		44A090081B6C0E520077E87D /* XCTestCase+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Common.h"; sourceTree = "<group>"; };
+		44A090091B6C0E520077E87D /* XCTestCase+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Common.m"; sourceTree = "<group>"; };
+		44A0900B1B6C0E860077E87D /* AirPlayServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceTests.m; sourceTree = "<group>"; };
+		44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebAppSessionTests.m; path = Sessions/WebAppSessionTests.m; sourceTree = "<group>"; };
+		44A0900F1B6C0EAA0077E87D /* AirPlayService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirPlayService_Private.h; sourceTree = "<group>"; };
+		44A090101B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FeatureNotSupported_Private.h"; sourceTree = "<group>"; };
+		44A090111B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FeatureNotSupported_Private.m"; sourceTree = "<group>"; };
 		44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetcastTVServiceTests.m; sourceTree = "<group>"; };
 		44A551921AC1F06A001AF783 /* NetcastTVService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetcastTVService_Private.h; sourceTree = "<group>"; };
 		44A5519B1AC34D56001AF783 /* WebOSTVServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSTVServiceTests.m; sourceTree = "<group>"; };
@@ -705,6 +716,7 @@
 		0FE5F0B51B3395E70009F27D /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */,
 				0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */,
 			);
 			name = Sessions;
@@ -750,6 +762,8 @@
 				44E98FA71B1E83960043BC70 /* OCMArg+ArgumentCaptor.m */,
 				44316ED71AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.h */,
 				44316ED81AEFF229000FE655 /* OCMStubRecorder+XCTestExpectation.m */,
+				44A090081B6C0E520077E87D /* XCTestCase+Common.h */,
+				44A090091B6C0E520077E87D /* XCTestCase+Common.m */,
 				44375E8C1A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m */,
 				44375E8D1A2526F800D2F6DE /* ConnectSDKTests-Prefix.pch */,
 				44375E8E1A2526F800D2F6DE /* Discovery */,
@@ -886,6 +900,7 @@
 				441C9EF51B3DBF9300F912D5 /* Config */,
 				0FE5F0B51B3395E70009F27D /* Sessions */,
 				44CEF5921A43598F00D069C8 /* Helpers */,
+				44A0900B1B6C0E860077E87D /* AirPlayServiceTests.m */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
 				44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */,
 				441217391B5974220087A32A /* RokuServiceTests.m */,
@@ -1240,6 +1255,7 @@
 			isa = PBXGroup;
 			children = (
 				EA5FB817199AEC550057B4B4 /* AirPlayService.h */,
+				44A0900F1B6C0EAA0077E87D /* AirPlayService_Private.h */,
 				EA5FB818199AEC550057B4B4 /* AirPlayService.m */,
 				EA5FB819199AEC550057B4B4 /* Capabilities */,
 				EA5FB827199AEC550057B4B4 /* Commands */,
@@ -1331,6 +1347,8 @@
 				444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */,
 				445822C01A6DA0EF00444188 /* DLNAHTTPServer_Private.h */,
 				444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */,
+				44A090101B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.h */,
+				44A090111B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m */,
 				EA5FB845199AEC550057B4B4 /* WebOSTVServiceMouse.h */,
 				EA5FB846199AEC550057B4B4 /* WebOSTVServiceMouse.m */,
 				EA5FB847199AEC550057B4B4 /* WebOSTVServiceSocketClient.h */,
@@ -1723,6 +1741,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A0900C1B6C0E860077E87D /* AirPlayServiceTests.m in Sources */,
 				44375E941A2526F800D2F6DE /* ConnectSDKDefaultPlatformsTests.m in Sources */,
 				44CEF5941A43598F00D069C8 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
 				441C9EF71B3DBF9300F912D5 /* ServiceDescriptionTests.m in Sources */,
@@ -1732,10 +1751,12 @@
 				441C9EDA1B3DBEBB00F912D5 /* AppStateChangeNotifierTests.m in Sources */,
 				441C9EDF1B3DBEC700F912D5 /* BlockRunnerTests.m in Sources */,
 				44BCC3F11AB37613001BCDAA /* NSInvocation+ObjectGetter.m in Sources */,
+				44A0900A1B6C0E520077E87D /* XCTestCase+Common.m in Sources */,
 				445822A51A6DA09900444188 /* NSDictionary+KeyPredicateSearchTests.m in Sources */,
 				445822A41A6DA09400444188 /* DLNAHTTPServerTests.m in Sources */,
 				449D5D641A6F1AE10072DD36 /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
 				44375E961A2526F800D2F6DE /* SSDPDiscoveryProviderTests.m in Sources */,
+				44A0900E1B6C0E960077E87D /* WebAppSessionTests.m in Sources */,
 				441C9ED81B3DBEA700F912D5 /* DiscoveryManagerTests.m in Sources */,
 				445822B11A6DA0A500444188 /* DLNAServiceTests.m in Sources */,
 				44758BD71AE71DCE00EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
@@ -1835,6 +1856,7 @@
 				EA5FB86F199AEC550057B4B4 /* ConnectableDevice.m in Sources */,
 				EA5FB8E7199AEC560057B4B4 /* ServiceConfig.m in Sources */,
 				EA5FB8C2199AEC560057B4B4 /* ConnectUtil.m in Sources */,
+				44A090131B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m in Sources */,
 				44C2CC9E1AB7976D00B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */,
 				EA5FB87D199AEC550057B4B4 /* DiscoveryProvider.m in Sources */,
 				44B43B1D1B680D9B004083E5 /* SubtitleInfo.m in Sources */,
