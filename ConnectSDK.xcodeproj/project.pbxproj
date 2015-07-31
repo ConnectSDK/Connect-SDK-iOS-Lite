@@ -356,7 +356,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebOSWebAppSessionTests.m; path = Sessions/WebOSWebAppSessionTests.m; sourceTree = "<group>"; };
+		0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSWebAppSessionTests.m; sourceTree = "<group>"; };
 		441217381B5973F50087A32A /* RokuService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RokuService_Private.h; sourceTree = "<group>"; };
 		441217391B5974220087A32A /* RokuServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuServiceTests.m; sourceTree = "<group>"; };
 		441C9ED71B3DBEA700F912D5 /* DiscoveryManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryManagerTests.m; sourceTree = "<group>"; };
@@ -442,7 +442,7 @@
 		44A090081B6C0E520077E87D /* XCTestCase+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Common.h"; sourceTree = "<group>"; };
 		44A090091B6C0E520077E87D /* XCTestCase+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Common.m"; sourceTree = "<group>"; };
 		44A0900B1B6C0E860077E87D /* AirPlayServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceTests.m; sourceTree = "<group>"; };
-		44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebAppSessionTests.m; path = Sessions/WebAppSessionTests.m; sourceTree = "<group>"; };
+		44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAppSessionTests.m; sourceTree = "<group>"; };
 		44A0900F1B6C0EAA0077E87D /* AirPlayService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirPlayService_Private.h; sourceTree = "<group>"; };
 		44A090101B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FeatureNotSupported_Private.h"; sourceTree = "<group>"; };
 		44A090111B6C0EE40077E87D /* NSObject+FeatureNotSupported_Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FeatureNotSupported_Private.m"; sourceTree = "<group>"; };
@@ -719,7 +719,7 @@
 				44A0900D1B6C0E960077E87D /* WebAppSessionTests.m */,
 				0FE5F0B61B3396050009F27D /* WebOSWebAppSessionTests.m */,
 			);
-			name = Sessions;
+			path = Sessions;
 			sourceTree = "<group>";
 		};
 		441C9EDB1B3DBEC700F912D5 /* BlockRunner */ = {
@@ -898,8 +898,8 @@
 			isa = PBXGroup;
 			children = (
 				441C9EF51B3DBF9300F912D5 /* Config */,
-				0FE5F0B51B3395E70009F27D /* Sessions */,
 				44CEF5921A43598F00D069C8 /* Helpers */,
+				0FE5F0B51B3395E70009F27D /* Sessions */,
 				44A0900B1B6C0E860077E87D /* AirPlayServiceTests.m */,
 				445822A61A6DA0A500444188 /* DLNAServiceTests.m */,
 				44A551901AC1F047001AF783 /* NetcastTVServiceTests.m */,
