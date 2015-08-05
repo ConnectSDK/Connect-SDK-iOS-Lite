@@ -71,6 +71,7 @@ All of the test targets are compiled when the main `ConnectSDK` scheme is built,
 
 - DLNA service supports `SRT` format only. Since there is no official specification for them, subtitles may not work on all DLNA-compatible devices. This feature has been tested and works on LG WebOS and Netcast TVs.
 - Netcast service supports `SRT` format only, through DLNA.
+- WebOS service supports `WebVTT` format only. Server providing subtitles should support CORS headers.
 
 ##Contact
 - Twitter: [@ConnectSDK](https://twitter.com/ConnectSDK)

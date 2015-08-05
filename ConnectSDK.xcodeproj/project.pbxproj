@@ -387,6 +387,7 @@
 		44375EA21A254CE900D2F6DE /* ZeroConfDiscoveryProvider_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroConfDiscoveryProvider_Private.h; sourceTree = "<group>"; };
 		44375EA31A254DE200D2F6DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		44375EA51A254DF400D2F6DE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		444566B91B729A3100868BF3 /* WebOSTVService_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebOSTVService_Private.h; sourceTree = "<group>"; };
 		444CDE261A2FA2140091B0CF /* DLNAHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAHTTPServer.h; sourceTree = "<group>"; };
 		444CDE271A2FA2140091B0CF /* DLNAHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAHTTPServer.m; sourceTree = "<group>"; };
 		445822A11A6DA06200444188 /* NSDictionary+KeyPredicateSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyPredicateSearchTests.m"; sourceTree = "<group>"; };
@@ -1277,6 +1278,7 @@
 				EA5FB84C199AEC550057B4B4 /* RokuService.m */,
 				EA5FB84D199AEC550057B4B4 /* Sessions */,
 				EA5FB857199AEC550057B4B4 /* WebOSTVService.h */,
+				444566B91B729A3100868BF3 /* WebOSTVService_Private.h */,
 				EA5FB858199AEC550057B4B4 /* WebOSTVService.m */,
 			);
 			path = Services;
